@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/afoster8/japanese-to-chinese-character-converter/static/css/main.bb5aa874.css",
+    "main.js": "/afoster8/japanese-to-chinese-character-converter/static/js/main.26b5e906.js",
+    "index.html": "/afoster8/japanese-to-chinese-character-converter/index.html",
+    "main.bb5aa874.css.map": "/afoster8/japanese-to-chinese-character-converter/static/css/main.bb5aa874.css.map",
+    "main.26b5e906.js.map": "/afoster8/japanese-to-chinese-character-converter/static/js/main.26b5e906.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb5aa874.css",
+    "static/js/main.26b5e906.js"
+  ]
+}
