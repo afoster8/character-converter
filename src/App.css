@@ -1,0 +1,142 @@
+body {
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+#input-kanji {
+  font-size: 20px;
+}
+
+.input-container {
+  text-align: center;
+}
+
+.input-container label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.input-container input {
+  display: inline-block;
+  width: 50%;
+}
+
+.input-container button {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button {
+  font-size: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.kanji-container,
+.simplified-container,
+.traditional-container {
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #444;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.kanji-container h2,
+.simplified-container h2,
+.traditional-container h2 {
+  font-size: 15px;
+}
+
+.kanji-container p,
+.simplified-container p,
+.traditional-container p {
+  font-size: 35px;
+}
+
+.kanji-container:hover,
+.simplified-container:hover,
+.traditional-container:hover {
+  transform: scale(1.05);
+}
+
+h1,
+h2 {
+  color: #ddd;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.info-container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.info-container.animate {
+  opacity: 1;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
