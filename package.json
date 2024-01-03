@@ -1,10 +1,10 @@
 {
-  "name": "jp-cn-conversion",
+  "name": "cmu-converter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/afoster8/japanese-to-chinese-character-converter",
+  "homepage": "https://afoster8.github.io/character-converter/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+"@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "csvtojson": "^2.0.10",
@@ -39,7 +39,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
+  }, 
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
