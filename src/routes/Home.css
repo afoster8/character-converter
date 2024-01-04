@@ -1,7 +1,7 @@
 .card {
   display: flex;
   width: 500px;
-  background-color: #2980b9;
+  background-color: #8860b8;
   border: 1px solid #ddd;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -22,10 +22,15 @@
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #BB86FC;
 }
 
 a, a:hover {
   text-decoration: none;
+}
+
+a:hover {
+  color: #BB86FC;
 }
 
 .card h2 {

@@ -6,14 +6,12 @@
   justify-content: space-around;
 }
 
-/* Navbar Link Styles */
 .navbar-container a {
   text-decoration: none; 
   color: white; 
   font-weight: bold; 
   font-size: 16px; 
 }
-
 
 .navbar-container a:hover {
   color: lightblue; 

@@ -1,5 +1,5 @@
 body {
-  background-color: #1e1e1e;
+  background-color: #121212;
   color: #ffffff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,7 +11,7 @@ code {
 }
 
 a {
-  color: #61dafb;
+  color: #BB86FC;
 }
 
 .page {
@@ -38,7 +38,7 @@ a {
 
 .main-content {
   border-radius: 8px;
-  background-color: #333;
+  background-color: #272626;
   padding: 40px;
   margin-top: 0px;
   display: flex;
@@ -51,12 +51,14 @@ a {
 
 .error-message {
   margin-top: 10px;
-  background-color: #5f5e5e;
+  background-color: #444444;
   padding: 10px;
+  width: 250px;
+  text-align: center;
 }
 
 button {
-  background-color: #3498db;
+  background-color: #8860b8;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -66,20 +68,20 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #bb86FC;
 }
 
 input {
   padding: 10px;
   width: 60%;
   margin-bottom: 20px;
-  background-color: #555;
+  background-color: #444444;
   color: #fff;
   border: none;
 }
 
 h1 {
-  color: #3498db;
+  color: #BB86FC;
   font-size: 40px;
 }
 
@@ -92,4 +94,8 @@ label {
 p {
   margin-block-end: 0px;
   margin-block-start: 0px;
+}
+
+a:hover {
+  color: #8860b8;
 }
