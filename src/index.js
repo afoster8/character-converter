@@ -9,12 +9,12 @@ import "./index.css";
 
 export default function App() {
   return (
-    <BrowserRouter basename="">
+    <BrowserRouter >
       <Routes>
-        <Route path="/" element={<Navbar />}>
+        <Route path="/character-converter" element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path="/converter" element={<Converter />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="/character-converter/converter" element={<Converter />} />
+          <Route path="/character-converter/*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

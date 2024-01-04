@@ -3,5 +3,4 @@ character conversion
 - copy fields
 
 - allow other conversions (simp to trad, trad to kanji, etc)
-- chinese pinyin ipa conversion page (for me......)
-- linking to appropriate dictionaries (jisho, etc) 
+- chinese pinyin ipa conversion page (for me......) 

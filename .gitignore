@@ -24,7 +24,8 @@ yarn-error.log*
 
 # large files 
 /input/sources/conversion_table.csv
-/input/source/unihan.json
+/input/sources/unihan.json
 
 # unnecessary files
 /input/count.py
+todo.txt

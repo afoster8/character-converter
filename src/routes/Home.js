@@ -9,7 +9,7 @@ const Home = () => {
 
         <div className="big-container">
 
-          <Link to="/converter">
+          <Link to="/character-converter/converter">
             <div className="card">
               <h2 id="link-name">Convert Kanji/Simplified/Traditional</h2>
             </div>
@@ -18,27 +18,27 @@ const Home = () => {
 
         <div className="smaller-container">
 
-        <Link to="/pinyin-to-ipa">
+        <Link to="/character-converter/pinyin-to-ipa">
           <div className="card">
-            <h2 id="link-name">Convert pinyin to IPA.</h2>
+            <h2 id="link-name">Convert pinyin ⇿ IPA.</h2>
           </div>
         </Link>
 
-          <Link to="/zhuyin-to-ipa">
+          <Link to="/character-converter/zhuyin-to-ipa">
             <div className="card">
-              <h2 id="link-name">Convert zhuyin to IPA.</h2>
+              <h2 id="link-name">Convert zhuyin ⇿ IPA.</h2>
             </div>
           </Link>
 
-          <Link to="/zhuyin-to-pinyin">
+          <Link to="/character-converter/zhuyin-to-pinyin">
             <div className="card">
-              <h2 id="link-name">Convert zhuyin to pinyin.</h2>
+              <h2 id="link-name">Convert zhuyin ⇿ pinyin.</h2>
             </div>
           </Link>
 
-          <Link to="/some-other-page">
+          <Link to="/character-converter/some-other-page">
             <div className="card">
-              <h2 id="link-name">Convert something to something!</h2>
+              <h2 id="link-name">Convert something ⇿ something!</h2>
             </div>
           </Link>
         </div>
