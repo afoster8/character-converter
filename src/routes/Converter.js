@@ -48,7 +48,6 @@ const Converter = () => {
     }
   };
 
-
   const generateChineseMatches = (hanzi) => {
 
     if (!json) {
@@ -138,10 +137,10 @@ const Converter = () => {
   return (
     <div className="page">
       <div className="main-content">
-        <h1>Kanji & Hanzi (Simplified & Traditional)</h1>
+        <h1>Kanji ⇿ Hanzi (Simplified & Traditional)</h1>
 
         <p> Input character to see what its equivalents are in kanji or simplified/traditional characters. </p>
-        <p> No need to differentiate between simple and traditional characters </p>
+        <p> No need to differentiate between simplified and traditional characters. </p>
 
         {error && <p className="error-message">{error}</p>}
 
@@ -184,6 +183,11 @@ const Converter = () => {
             <p>{info}</p>
           </div>
         }
+      </div>
+
+      <div className="footer">
+      <p>Uses <a href="https://lotus.kuee.kyoto-u.ac.jp/~chu/pubdb/LREC2012/kanji_mapping_table.txt">this resource from Dr. Chen Chu </a> 
+      for mappings between character classes. </p>
       </div>
     </div>
   );

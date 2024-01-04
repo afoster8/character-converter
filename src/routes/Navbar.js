@@ -10,6 +10,7 @@ const Navbar = () => {
           <Link to="/character-converter/converter">Kanji ⇿ Hanzi</Link>
           <Link to="/character-converter/pinyin-to-ipa">Pinyin ⇿ IPA</Link>
           <Link to="/character-converter/zhuyin-to-ipa">Zhuyin ⇿ IPA</Link>
+          <Link to="/character-converter/japanese-to-ipa">Japanese ⇿ IPA</Link>
           <Link to="/character-converter/zhuyin-to-pinyin">Zhuyin ⇿ Pinyin</Link>
         </div>
       </nav>
