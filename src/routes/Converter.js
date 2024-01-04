@@ -25,17 +25,11 @@ const Converter = () => {
     setLanguage(e.target.value);
   }
 
-  const generateJapaneseMatches = () => {
+  const generateJapaneseMatches = (kanji) => {
 
     if (!json) {
       console.log("CSV data not loaded yet.");
       return;
-    }
-
-    const kanji = document.getElementById("input-character").value;
-
-    if (!kanji) {
-      throw new Error("Where is the kanji?");
     }
 
     try {
@@ -54,26 +48,72 @@ const Converter = () => {
     }
   };
 
+
+  const generateChineseMatches = (hanzi) => {
+
+    if (!json) {
+      console.log("CSV data not loaded yet.");
+      return;
+    }
+
+    try {
+      console.log("not implemented yet");
+      return {};
+
+    } catch (error) {
+      console.log(error);
+      throw new Error("Something bad happened.")
+    }
+  };
+
+
   const handleMatchClick = () => {
-    setError();
+    setError("");
 
-    if (language === "japanese") {
-      try {
-        const { kanji, simplified, traditional } = generateJapaneseMatches(json);
-        setResult({ kanji, simplified, traditional });
-        setInfo("");
+    try {
+      const character = document.getElementById("input-character").value;
 
-      } catch (e) {
-        setError("Character missing");
+      if (!character) {
+        setError("No character entered! Please try again.")
+        throw new Error("No character found");
+      }
+
+      if (language === "japanese") {
+        try {
+          const { kanji, simplified, traditional } = generateJapaneseMatches(character);
+          setResult({ kanji, simplified, traditional });
+          setInfo("");
+
+        } catch (e) {
+          setError("Character not found in Japanese dictionary.");
+          setInfo("");
+          setResult({});
+        }
+
+      } else if (language === "chinese") {
+
+        try {
+          // const { kanji, simplified, traditional } = generateChineseMatches();
+          // setResult({ kanji, simplified, traditional });
+          setResult(generateChineseMatches());
+          setError("Chinese mode not implemented yet!");
+          setInfo("");
+
+        } catch (e) {
+          setError("Character not found in Chinese dictionary.");
+          setInfo("");
+          setResult({});
+        }
+
+      } else {
+        setError("What did you do...?")
         setInfo("");
         setResult({});
       }
 
-    } else {
-      console.log("not implemented yet");
-      setError("No Chinese conversion yet!")
-      setInfo("");
-      setResult({});
+    } catch (error) {
+      console.log(error);
+      setError("You didn't enter anything!");
     }
   };
 
