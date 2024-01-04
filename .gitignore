@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# large files 
+/input/sources/conversion_table.csv
+/input/source/unihan.json
+
+# unnecessary files
+/input/count.py

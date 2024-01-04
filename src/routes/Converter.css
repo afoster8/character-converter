@@ -1,20 +1,23 @@
-body {
+
+.main-content {
   background-color: #333;
-  color: #fff;
-  margin: 0;
+  padding: 40px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  width: 70%;
+  align-items: center;
 }
 
-.App {
-  text-align: center;
-  font-family: 'Arial', sans-serif;
-  padding: 20px;
-}
-
-#input-kanji {
-  font-size: 20px;
+.input {
+  width: 1000px;
 }
 
 .input-container {
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -81,40 +84,6 @@ button {
 .simplified-container:hover,
 .traditional-container:hover {
   transform: scale(1.05);
-}
-
-h1,
-h2 {
-  color: #ddd;
-}
-
-label {
-  display: block;
-  margin-bottom: 10px;
-  color: #ddd;
-}
-
-input {
-  padding: 10px;
-  width: 60%;
-  margin-bottom: 20px;
-  background-color: #555;
-  color: #fff;
-  border: none;
-}
-
-button {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #2980b9;
 }
 
 .info-container {
