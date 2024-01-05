@@ -36,7 +36,7 @@ const Home = () => {
 
           <Link to="/character-converter/some-other-page">
             <div className="card">
-              <h2 id="link-name">Convert kana/romaji ⇿ IPA</h2>
+              <h2 id="link-name">Convert kana ⇿ IPA</h2>
             </div>
           </Link>
 
@@ -49,6 +49,11 @@ const Home = () => {
         </div>
 
       </div>
+      <div className="footer">
+        <p>Creator of these tools is at the intermediate level in Japanese at best and has not studied Chinese at all. Use at your own peril.</p>
+        <br/>
+        <p>Sources for kanji/hanzi information and mapping can be found 
+         <a href="https://github.com/afoster8/character-converter/tree/main?tab=readme-ov-file#sources"> here</a>.</p></div>
     </div >
   );
 };

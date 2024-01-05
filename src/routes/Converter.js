@@ -1,67 +1,102 @@
-import React, { useState, useEffect } from 'react';
-import json from "../conversion_table.json"
+import React, { useState } from 'react';
+import japn_json from "../conversion/kanji_conversion.json"
+import trad_json from "../conversion/traditional_conversion.json"
+import simp_json from "../conversion/simplified_conversion.json"
 import "./Converter.css"
 
 const Converter = () => {
 
+  const [showKanjiInfo, setShowKanjiInfo] = useState(false);
+  const [showTraditionalInfo, setShowTraditionalInfo] = useState(false);
+  const [showSimplifiedInfo, setShowSimplifiedInfo] = useState(false);
+
   const [result, setResult] = useState({
     kanji: "",
     simplified: "",
-    traditional: ""
+    traditional: "",
   });
 
-  const [info, setInfo] = useState("");
   const [error, setError] = useState("");
   const [language, setLanguage] = useState("japanese");
-
-  useEffect(() => {
-    const infoContainer = document.querySelector('.info-container');
-    if (infoContainer && info) {
-      infoContainer.classList.add('animate');
-    }
-  }, [info]);
 
   const handleLanguageChange = (e) => {
     setLanguage(e.target.value);
   }
 
+  const handleContainerClick = (container) => {
+    switch (container) {
+      case 'kanji':
+        setShowKanjiInfo(!showKanjiInfo);
+        break;
+      case 'traditional':
+        setShowTraditionalInfo(!showTraditionalInfo);
+        break;
+      case 'simplified':
+        setShowSimplifiedInfo(!showSimplifiedInfo);
+        break;
+      default:
+        setShowKanjiInfo(false);
+        setShowTraditionalInfo(false);
+        setShowSimplifiedInfo(false);
+    }
+  };
+
   const generateJapaneseMatches = (kanji) => {
 
-    if (!json) {
-      console.log("CSV data not loaded yet.");
-      return;
+    if (!japn_json) {
+      throw new Error("Japanese dictionary is gone!")
     }
 
     try {
-      const result = json.data;
+      const result = japn_json.data;
       const matchingRow = result.find(row => row[0] === kanji);
 
       if (matchingRow) {
-        const simplified = matchingRow[1] ? matchingRow[1] : "n/a";
-        const traditional = matchingRow[2] ? matchingRow[2] : "n/a";
+        const simplified = matchingRow[2] ? matchingRow[2] : "n/a";
+        const traditional = matchingRow[1] ? matchingRow[1] : "n/a";
         return { kanji, simplified, traditional };
+
+      } else {
+        throw new Error(`${kanji} not found in Japanese dictionary`)
       }
 
     } catch (error) {
-      console.log(error);
-      throw new Error("Something bad happened.")
+      throw new Error(error)
     }
   };
 
   const generateChineseMatches = (hanzi) => {
 
-    if (!json) {
-      console.log("CSV data not loaded yet.");
-      return;
+    if (!trad_json || !simp_json) {
+      throw new Error("Chinese dictionary is gone!")
     }
 
     try {
-      console.log("not implemented yet");
-      return {};
+      const result = simp_json.data;
+      const matchingRow = result.find(row => row[0] === hanzi)
+
+      if (matchingRow) {
+        const kanji = matchingRow[1] ? matchingRow[1] : "n/a";
+        const traditional = matchingRow[2] ? matchingRow[2] : "n/a";
+        console.log("within function: " + hanzi)
+        return { kanji, simplified: hanzi, traditional };
+
+      } else {
+        const result = trad_json.data;
+        const matchingRow = result.find(row => row[0] === hanzi)
+
+        if (matchingRow) {
+          const kanji = matchingRow[1] ? matchingRow[1] : "n/a";
+          const simplified = matchingRow[2] ? matchingRow[2] : "n/a";
+          return { kanji, simplified, traditional: hanzi };
+
+        } else {
+          throw new Error(`${hanzi} not found in dictionary`)
+        }
+      }
 
     } catch (error) {
-      console.log(error);
-      throw new Error("Something bad happened.")
+      throw new Error(error)
     }
   };
 
@@ -73,64 +108,73 @@ const Converter = () => {
       const character = document.getElementById("input-character").value;
 
       if (!character) {
-        setError("No character entered! Please try again.")
-        throw new Error("No character found");
+        throw new Error("You didn't enter anything!");
       }
 
       if (language === "japanese") {
         try {
           const { kanji, simplified, traditional } = generateJapaneseMatches(character);
           setResult({ kanji, simplified, traditional });
-          setInfo("");
 
-        } catch (e) {
-          setError("Character not found in Japanese dictionary.");
-          setInfo("");
-          setResult({});
+        } catch (error) {
+          throw new Error(error)
         }
 
       } else if (language === "chinese") {
 
         try {
-          // const { kanji, simplified, traditional } = generateChineseMatches();
-          // setResult({ kanji, simplified, traditional });
-          setResult(generateChineseMatches());
-          setError("Chinese mode not implemented yet!");
-          setInfo("");
+          const { kanji, simplified, traditional } = generateChineseMatches(character);
+          setResult({ kanji, simplified, traditional });
 
-        } catch (e) {
-          setError("Character not found in Chinese dictionary.");
-          setInfo("");
-          setResult({});
+        } catch (error) {
+          throw new Error(error)
         }
 
-      } else {
-        setError("What did you do...?")
-        setInfo("");
-        setResult({});
       }
 
     } catch (error) {
-      console.log(error);
-      setError("You didn't enter anything!");
+      if (error.message) {
+        setError(error.message);
+      } else {
+        setError("Something went wrong")
+      }
     }
   };
 
-  const handleContainerClick = (category) => {
-    switch (category) {
-      case 'kanji':
-        setInfo("Information about Kanji goes here.");
-        break;
-      case 'simplified':
-        setInfo("Information about Simplified goes here.");
-        break;
-      case 'traditional':
-        setInfo("Information about Traditional goes here.");
-        break;
-      default:
-        setInfo("");
-    }
+  const renderChineseCharacterInfo = (character) => {
+    return (
+      <div className="character-info">
+        <h3>{character}</h3>
+        <p>Strokes: </p>
+        <p>Meanings: </p>
+        <div className="readings">
+          <p>Readings: </p>
+          <div className="readings-info">
+            <p>Zhuyin: </p>
+            <p>Pinyin: </p>
+            <p>IPA: </p>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
+  const renderJapaneseCharacterInfo = (character) => {
+    return (
+      <div className="character-info">
+        <h3>{character}</h3>
+        <p>Strokes: </p>
+        <p>Meanings: </p>
+        <div className="readings">
+          <p>Readings: </p>
+          <div className="readings-info">
+            <p>On: </p>
+            <p>Kun: </p>
+            <p>IPA: </p>
+          </div>
+        </div>
+      </div>
+    );
   };
 
 
@@ -158,36 +202,81 @@ const Converter = () => {
           </div>
         </div>
 
-        {result.kanji && result.simplified && result.traditional &&
+        {(result.kanji || result.simplified || result.traditional) && (
           <div className="results">
-            <div className="kanji-container" onClick={() => handleContainerClick('kanji')}>
-              <h2>Kanji</h2>
-              <p id="kanji">{result.kanji}</p>
+
+            <div className="japanese-column">
+              <div className="kanji-container">
+                <h2>Kanji</h2>
+                <div className="kanji-types-container" onClick={() => handleContainerClick('kanji')}>
+                  <p id="kanji">{result.kanji}</p>
+                </div>
+              </div>
+
+              <div className={`information ${showKanjiInfo ? 'active' : ''}`}>
+                {result.kanji.length === 1 ? (
+                  renderJapaneseCharacterInfo(result.kanji)
+                ) : (
+                  result.kanji.split(', ').map((char, index) => (
+                    <div key={index}>
+                      {renderJapaneseCharacterInfo(char)}
+                    </div>
+                  ))
+                )}
+              </div>
             </div>
 
-            <div className="simplified-container" onClick={() => handleContainerClick('simplified')}>
-              <h2>Simplified</h2>
-              <p id="simplified">{result.simplified}</p>
-            </div>
+            <div className="chinese-column">
+              <div className="hanzi-container">
+                <h2>Hanzi</h2>
+                <div className="hanzi-types-container">
+                  <div className="traditional-container" onClick={() => handleContainerClick('traditional')}>
+                    <h3>Traditional</h3>
+                    <p id="traditional">{result.traditional}</p>
+                  </div>
 
-            <div className="traditional-container" onClick={() => handleContainerClick('traditional')}>
-              <h2>Traditional</h2>
-              <p id="traditional">{result.traditional}</p>
+                  <div className="simplified-container" onClick={() => handleContainerClick('simplified')}>
+                    <h3>Simplified</h3>
+                    <p id="simplified">{result.simplified}</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="sub-chinese-column">
+                <div className={`information ${showTraditionalInfo ? 'active' : ''}`}>
+                  {result.traditional.length === 1 ? (
+                    renderChineseCharacterInfo(result.traditional)
+                  ) : (
+                    result.traditional.split(', ').map((char, index) => (
+                      <div key={index}>
+                        {renderChineseCharacterInfo(char)}
+                      </div>
+                    ))
+                  )}
+                </div>
+
+                <div className={`information ${showSimplifiedInfo ? 'active' : ''}`}>
+                  {result.simplified.length === 1 ? (
+                    renderJapaneseCharacterInfo(result.simplified)
+                  ) : (
+                    result.simplified.split(', ').map((char, index) => (
+                      <div key={index}>
+                        {renderChineseCharacterInfo(char)}
+                      </div>
+                    ))
+                  )}
+                </div>
+
+              </div>
             </div>
           </div>
-        }
+        )}
 
-        {info &&
-          <div className="info-container">
-            <h2>Information</h2>
-            <p>{info}</p>
-          </div>
-        }
       </div>
 
       <div className="footer">
-      <p>Uses <a href="https://lotus.kuee.kyoto-u.ac.jp/~chu/pubdb/LREC2012/kanji_mapping_table.txt">this resource from Dr. Chen Chu </a> 
-      for mappings between character classes. </p>
+        <p>Uses <a href="https://lotus.kuee.kyoto-u.ac.jp/~chu/pubdb/LREC2012/kanji_mapping_table.txt">this resource from Dr. Chen Chu </a>
+          for mappings between character classes. </p>
       </div>
     </div>
   );

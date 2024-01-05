@@ -40,6 +40,6 @@ filtered_data = [
     if item["char"] in merged_list
 ]
 
-with open("../src/conversion/chinese.json", "w", encoding="utf-8") as output_file:
+with open("../src/conversion/hanzi_info.json", "w", encoding="utf-8") as output_file:
     json.dump(filtered_data, output_file, indent=2, ensure_ascii=False)
   

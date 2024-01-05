@@ -1,6 +1,5 @@
 character conversion
-- obviously character info (meanings, pinyin/zhuyin/kana, ipa, strokes)
-- allow other conversions (simp to trad, trad to kanji, etc)
-- chinese pinyin ipa conversion page 
-- chinese zhuyin ipa conversion page
-- zhuyin pinyin conversion page
+
+- load in character info
+- zhuyin pinyin conversion logic (should be pretty easy -- just strip tone and convert directly)
+- japanese ipa conversion logic (yikes)

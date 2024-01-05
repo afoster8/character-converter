@@ -1,5 +1,5 @@
 {
-  "name": "cmu-converter",
+  "name": "character-converter",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://afoster8.github.io/character-converter/",
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "csvtojson": "^2.0.10",
+    "diacritics": "^1.3.0",
     "fs": "^0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

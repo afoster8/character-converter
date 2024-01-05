@@ -1,0 +1,2042 @@
+[
+  {
+    "pinyin": "ai",
+    "zhuyin": "ㄞ",
+    "ipa": "aɪ̯"
+  },
+  {
+    "pinyin": "ao",
+    "zhuyin": "ㄠ",
+    "ipa": "ɑʊ̯"
+  },
+  {
+    "pinyin": "an",
+    "zhuyin": "ㄢ",
+    "ipa": "an"
+  },
+  {
+    "pinyin": "ang",
+    "zhuyin": "ㄤ",
+    "ipa": "ɑŋ"
+  },
+  {
+    "pinyin": "e",
+    "zhuyin": "ㄜ",
+    "ipa": "ɯ̯ʌ"
+  },
+  {
+    "pinyin": "ei",
+    "zhuyin": "ㄟ",
+    "ipa": "eɪ̯"
+  },
+  {
+    "pinyin": "en",
+    "zhuyin": "ㄣ",
+    "ipa": "ən"
+  },
+  {
+    "pinyin": "eng",
+    "zhuyin": "ㄥ",
+    "ipa": "əŋ"
+  },
+  {
+    "pinyin": "er",
+    "zhuyin": "ㄦ",
+    "ipa": "ɑɻ"
+  },
+  {
+    "pinyin": "o",
+    "zhuyin": "ㄛ",
+    "ipa": "ɔ"
+  },
+  {
+    "pinyin": "ou",
+    "zhuyin": "ㄡ",
+    "ipa": "ɤʊ̯"
+  },
+  {
+    "pinyin": "yi",
+    "zhuyin": "ㄧ",
+    "ipa": "i"
+  },
+  {
+    "pinyin": "ya",
+    "zhuyin": "ㄧㄚ",
+    "ipa": "i̯ɑ"
+  },
+  {
+    "pinyin": "yao",
+    "zhuyin": "ㄧㄠ",
+    "ipa": "i̯ɑʊ̯"
+  },
+  {
+    "pinyin": "ye",
+    "zhuyin": "ㄧㄝ",
+    "ipa": "iɛ"
+  },
+  {
+    "pinyin": "you",
+    "zhuyin": "ㄧㄡ",
+    "ipa": "i̯ɤʊ̯"
+  },
+  {
+    "pinyin": "yan",
+    "zhuyin": "ㄧㄢ",
+    "ipa": "iɛn"
+  },
+  {
+    "pinyin": "yang",
+    "zhuyin": "ㄧㄤ",
+    "ipa": "i̯ɑŋ"
+  },
+  {
+    "pinyin": "yin",
+    "zhuyin": "ㄧㄣ",
+    "ipa": "in"
+  },
+  {
+    "pinyin": "ying",
+    "zhuyin": "ㄧㄥ",
+    "ipa": "iŋ"
+  },
+  {
+    "pinyin": "yong",
+    "zhuyin": "ㄩㄥ",
+    "ipa": "i̯ʊŋ"
+  },
+  {
+    "pinyin": "wu",
+    "zhuyin": "ㄨ",
+    "ipa": "u"
+  },
+  {
+    "pinyin": "wa",
+    "zhuyin": "ㄨㄚ",
+    "ipa": "u̯ɑ"
+  },
+  {
+    "pinyin": "wai",
+    "zhuyin": "ㄨㄞ",
+    "ipa": "u̯aɪ̯"
+  },
+  {
+    "pinyin": "wei",
+    "zhuyin": "ㄨㄟ",
+    "ipa": "u̯eɪ̯"
+  },
+  {
+    "pinyin": "wo",
+    "zhuyin": "ㄨㄛ",
+    "ipa": "u̯ɔ"
+  },
+  {
+    "pinyin": "wan",
+    "zhuyin": "ㄨㄢ",
+    "ipa": "u̯an"
+  },
+  {
+    "pinyin": "wang",
+    "zhuyin": "ㄨㄤ",
+    "ipa": "u̯ɑŋ"
+  },
+  {
+    "pinyin": "wen",
+    "zhuyin": "ㄨㄣ",
+    "ipa": "u̯ən"
+  },
+  {
+    "pinyin": "weng",
+    "zhuyin": "ㄨㄥ",
+    "ipa": "u̯əŋ"
+  },
+  {
+    "pinyin": "yu",
+    "zhuyin": "ㄩ",
+    "ipa": "y"
+  },
+  {
+    "pinyin": "yue",
+    "zhuyin": "ㄩㄝ",
+    "ipa": "y̯œ"
+  },
+  {
+    "pinyin": "yuan",
+    "zhuyin": "ㄩㄢ",
+    "ipa": "y̯ɛn"
+  },
+  {
+    "pinyin": "yun",
+    "zhuyin": "ㄩㄣ",
+    "ipa": "yn"
+  },
+  {
+    "pinyin": "ba",
+    "zhuyin": "ㄅㄚ",
+    "ipa": "pɑ"
+  },
+  {
+    "pinyin": "bai",
+    "zhuyin": "ㄅㄞ",
+    "ipa": "paɪ̯"
+  },
+  {
+    "pinyin": "bao",
+    "zhuyin": "ㄅㄠ",
+    "ipa": "pɑʊ̯"
+  },
+  {
+    "pinyin": "ban",
+    "zhuyin": "ㄅㄢ",
+    "ipa": "pan"
+  },
+  {
+    "pinyin": "bang",
+    "zhuyin": "ㄅㄤ",
+    "ipa": "pɑŋ"
+  },
+  {
+    "pinyin": "bei",
+    "zhuyin": "ㄅㄟ",
+    "ipa": "peɪ̯"
+  },
+  {
+    "pinyin": "ben",
+    "zhuyin": "ㄅㄣ",
+    "ipa": "pən"
+  },
+  {
+    "pinyin": "beng",
+    "zhuyin": "ㄅㄥ",
+    "ipa": "pəŋ"
+  },
+  {
+    "pinyin": "bo",
+    "zhuyin": "ㄅㄛ",
+    "ipa": "pu̯ɔ"
+  },
+  {
+    "pinyin": "bi",
+    "zhuyin": "ㄅㄧ",
+    "ipa": "pi"
+  },
+  {
+    "pinyin": "biao",
+    "zhuyin": "ㄅㄧㄠ",
+    "ipa": "pi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "bie",
+    "zhuyin": "ㄅㄧㄝ",
+    "ipa": "piɛ"
+  },
+  {
+    "pinyin": "bian",
+    "zhuyin": "ㄅㄧㄢ",
+    "ipa": "piɛn"
+  },
+  {
+    "pinyin": "bin",
+    "zhuyin": "ㄅㄧㄣ",
+    "ipa": "pin"
+  },
+  {
+    "pinyin": "bing",
+    "zhuyin": "ㄅㄧㄥ",
+    "ipa": "piŋ"
+  },
+  {
+    "pinyin": "bu",
+    "zhuyin": "ㄅㄨ",
+    "ipa": "pu"
+  },
+  {
+    "pinyin": "pa",
+    "zhuyin": "ㄆㄚ",
+    "ipa": "pʰɑ"
+  },
+  {
+    "pinyin": "pai",
+    "zhuyin": "ㄆㄞ",
+    "ipa": "pʰaɪ̯"
+  },
+  {
+    "pinyin": "pao",
+    "zhuyin": "ㄆㄠ",
+    "ipa": "pʰɑʊ̯"
+  },
+  {
+    "pinyin": "pan",
+    "zhuyin": "ㄆㄢ",
+    "ipa": "pʰan"
+  },
+  {
+    "pinyin": "pang",
+    "zhuyin": "ㄆㄤ",
+    "ipa": "pʰɑŋ"
+  },
+  {
+    "pinyin": "pei",
+    "zhuyin": "ㄆㄟ",
+    "ipa": "pʰeɪ̯"
+  },
+  {
+    "pinyin": "pen",
+    "zhuyin": "ㄆㄣ",
+    "ipa": "pʰən"
+  },
+  {
+    "pinyin": "peng",
+    "zhuyin": "ㄆㄥ",
+    "ipa": "pʰəŋ"
+  },
+  {
+    "pinyin": "po",
+    "zhuyin": "ㄆㄛ",
+    "ipa": "pʰu̯ɔ"
+  },
+  {
+    "pinyin": "pou",
+    "zhuyin": "ㄆㄡ",
+    "ipa": "pʰɤʊ̯"
+  },
+  {
+    "pinyin": "pi",
+    "zhuyin": "ㄆㄧ",
+    "ipa": "pʰi"
+  },
+  {
+    "pinyin": "piao",
+    "zhuyin": "ㄆㄧㄠ",
+    "ipa": "pʰi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "pie",
+    "zhuyin": "ㄆㄧㄝ",
+    "ipa": "pʰiɛ"
+  },
+  {
+    "pinyin": "pian",
+    "zhuyin": "ㄆㄧㄢ",
+    "ipa": "pʰiɛn"
+  },
+  {
+    "pinyin": "pin",
+    "zhuyin": "ㄆㄧㄣ",
+    "ipa": "pʰin"
+  },
+  {
+    "pinyin": "ping",
+    "zhuyin": "ㄆㄧㄥ",
+    "ipa": "pʰiŋ"
+  },
+  {
+    "pinyin": "pu",
+    "zhuyin": "ㄆㄨ",
+    "ipa": "pʰu"
+  },
+  {
+    "pinyin": "ma",
+    "zhuyin": "ㄇㄚ",
+    "ipa": "mɑ"
+  },
+  {
+    "pinyin": "mai",
+    "zhuyin": "ㄇㄞ",
+    "ipa": "maɪ̯"
+  },
+  {
+    "pinyin": "mao",
+    "zhuyin": "ㄇㄠ",
+    "ipa": "mɑʊ̯"
+  },
+  {
+    "pinyin": "man",
+    "zhuyin": "ㄇㄢ",
+    "ipa": "man"
+  },
+  {
+    "pinyin": "mang",
+    "zhuyin": "ㄇㄤ",
+    "ipa": "mɑŋ"
+  },
+  {
+    "pinyin": "me",
+    "zhuyin": "ㄇㄜ",
+    "ipa": "mɯ̯ʌ"
+  },
+  {
+    "pinyin": "mei",
+    "zhuyin": "ㄇㄟ",
+    "ipa": "meɪ̯"
+  },
+  {
+    "pinyin": "men",
+    "zhuyin": "ㄇㄣ",
+    "ipa": "mən"
+  },
+  {
+    "pinyin": "meng",
+    "zhuyin": "ㄇㄥ",
+    "ipa": "məŋ"
+  },
+  {
+    "pinyin": "mo",
+    "zhuyin": "ㄇㄛ",
+    "ipa": "mu̯ɔ"
+  },
+  {
+    "pinyin": "mou",
+    "zhuyin": "ㄇㄡ",
+    "ipa": "mɤʊ̯"
+  },
+  {
+    "pinyin": "mi",
+    "zhuyin": "ㄇㄧ",
+    "ipa": "mi"
+  },
+  {
+    "pinyin": "miao",
+    "zhuyin": "ㄇㄧㄠ",
+    "ipa": "mi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "mie",
+    "zhuyin": "ㄇㄧㄝ",
+    "ipa": "miɛ"
+  },
+  {
+    "pinyin": "miu",
+    "zhuyin": "ㄇㄧㄡ",
+    "ipa": "mi̯ɤʊ̯"
+  },
+  {
+    "pinyin": "mian",
+    "zhuyin": "ㄇㄧㄢ",
+    "ipa": "miɛn"
+  },
+  {
+    "pinyin": "min",
+    "zhuyin": "ㄇㄧㄣ",
+    "ipa": "min"
+  },
+  {
+    "pinyin": "ming",
+    "zhuyin": "ㄇㄧㄥ",
+    "ipa": "miŋ"
+  },
+  {
+    "pinyin": "mu",
+    "zhuyin": "ㄇㄨ",
+    "ipa": "mu"
+  },
+  {
+    "pinyin": "fa",
+    "zhuyin": "ㄈㄚ",
+    "ipa": "fɑ"
+  },
+  {
+    "pinyin": "fan",
+    "zhuyin": "ㄈㄢ",
+    "ipa": "fan"
+  },
+  {
+    "pinyin": "fang",
+    "zhuyin": "ㄈㄤ",
+    "ipa": "fɑŋ"
+  },
+  {
+    "pinyin": "fei",
+    "zhuyin": "ㄈㄟ",
+    "ipa": "feɪ̯"
+  },
+  {
+    "pinyin": "fen",
+    "zhuyin": "ㄈㄣ",
+    "ipa": "fən"
+  },
+  {
+    "pinyin": "feng",
+    "zhuyin": "ㄈㄥ",
+    "ipa": "fəŋ"
+  },
+  {
+    "pinyin": "fo",
+    "zhuyin": "ㄈㄛ",
+    "ipa": "fu̯ɔ"
+  },
+  {
+    "pinyin": "fou",
+    "zhuyin": "ㄈㄡ",
+    "ipa": "fɤʊ̯"
+  },
+  {
+    "pinyin": "fu",
+    "zhuyin": "ㄈㄨ",
+    "ipa": "fu"
+  },
+  {
+    "pinyin": "da",
+    "zhuyin": "ㄉㄚ",
+    "ipa": "tɑ"
+  },
+  {
+    "pinyin": "dai",
+    "zhuyin": "ㄉㄞ",
+    "ipa": "taɪ̯"
+  },
+  {
+    "pinyin": "dao",
+    "zhuyin": "ㄉㄠ",
+    "ipa": "tɑʊ̯"
+  },
+  {
+    "pinyin": "dan",
+    "zhuyin": "ㄉㄢ",
+    "ipa": "tan"
+  },
+  {
+    "pinyin": "dang",
+    "zhuyin": "ㄉㄤ",
+    "ipa": "tɑŋ"
+  },
+  {
+    "pinyin": "de",
+    "zhuyin": "ㄉㄜ",
+    "ipa": "tɯ̯ʌ"
+  },
+  {
+    "pinyin": "dei",
+    "zhuyin": "ㄉㄟ",
+    "ipa": "teɪ̯"
+  },
+  {
+    "pinyin": "den",
+    "zhuyin": "ㄉㄣ",
+    "ipa": "tən"
+  },
+  {
+    "pinyin": "deng",
+    "zhuyin": "ㄉㄥ",
+    "ipa": "təŋ"
+  },
+  {
+    "pinyin": "dou",
+    "zhuyin": "ㄉㄡ",
+    "ipa": "tɤʊ̯"
+  },
+  {
+    "pinyin": "dong",
+    "zhuyin": "ㄉㄨㄥ",
+    "ipa": "tʊŋ"
+  },
+  {
+    "pinyin": "di",
+    "zhuyin": "ㄉㄧ",
+    "ipa": "ti"
+  },
+  {
+    "pinyin": "diao",
+    "zhuyin": "ㄉㄧㄠ",
+    "ipa": "ti̯ɑʊ̯"
+  },
+  {
+    "pinyin": "die",
+    "zhuyin": "ㄉㄧㄝ",
+    "ipa": "tiɛ"
+  },
+  {
+    "pinyin": "diu",
+    "zhuyin": "ㄉㄧㄡ",
+    "ipa": "ti̯ɤʊ̯"
+  },
+  {
+    "pinyin": "dian",
+    "zhuyin": "ㄉㄧㄢ",
+    "ipa": "tiɛn"
+  },
+  {
+    "pinyin": "ding",
+    "zhuyin": "ㄉㄧㄥ",
+    "ipa": "tiŋ"
+  },
+  {
+    "pinyin": "du",
+    "zhuyin": "ㄉㄨ",
+    "ipa": "tu"
+  },
+  {
+    "pinyin": "dui",
+    "zhuyin": "ㄉㄨㄟ",
+    "ipa": "tu̯eɪ̯"
+  },
+  {
+    "pinyin": "duo",
+    "zhuyin": "ㄉㄨㄛ",
+    "ipa": "tu̯ɔ"
+  },
+  {
+    "pinyin": "duan",
+    "zhuyin": "ㄉㄨㄢ",
+    "ipa": "tu̯an"
+  },
+  {
+    "pinyin": "dun",
+    "zhuyin": "ㄉㄨㄣ",
+    "ipa": "tu̯ən"
+  },
+  {
+    "pinyin": "ta",
+    "zhuyin": "ㄊㄚ",
+    "ipa": "tʰɑ"
+  },
+  {
+    "pinyin": "tai",
+    "zhuyin": "ㄊㄞ",
+    "ipa": "tʰaɪ̯"
+  },
+  {
+    "pinyin": "tao",
+    "zhuyin": "ㄊㄠ",
+    "ipa": "tʰɑʊ̯"
+  },
+  {
+    "pinyin": "tan",
+    "zhuyin": "ㄊㄢ",
+    "ipa": "tʰan"
+  },
+  {
+    "pinyin": "tang",
+    "zhuyin": "ㄊㄤ",
+    "ipa": "tʰɑŋ"
+  },
+  {
+    "pinyin": "te",
+    "zhuyin": "ㄊㄜ",
+    "ipa": "tʰɯ̯ʌ"
+  },
+  {
+    "pinyin": "teng",
+    "zhuyin": "ㄊㄥ",
+    "ipa": "tʰəŋ"
+  },
+  {
+    "pinyin": "tou",
+    "zhuyin": "ㄊㄡ",
+    "ipa": "tʰɤʊ̯"
+  },
+  {
+    "pinyin": "tong",
+    "zhuyin": "ㄊㄨㄥ",
+    "ipa": "tʰʊŋ"
+  },
+  {
+    "pinyin": "ti",
+    "zhuyin": "ㄊㄧ",
+    "ipa": "tʰi"
+  },
+  {
+    "pinyin": "tiao",
+    "zhuyin": "ㄊㄧㄠ",
+    "ipa": "tʰi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "tie",
+    "zhuyin": "ㄊㄧㄝ",
+    "ipa": "tʰiɛ"
+  },
+  {
+    "pinyin": "tian",
+    "zhuyin": "ㄊㄧㄢ",
+    "ipa": "tʰiɛn"
+  },
+  {
+    "pinyin": "ting",
+    "zhuyin": "ㄊㄧㄥ",
+    "ipa": "tʰiŋ"
+  },
+  {
+    "pinyin": "tu",
+    "zhuyin": "ㄊㄨ",
+    "ipa": "tʰu"
+  },
+  {
+    "pinyin": "tui",
+    "zhuyin": "ㄊㄨㄟ",
+    "ipa": "tʰu̯eɪ̯"
+  },
+  {
+    "pinyin": "tuo",
+    "zhuyin": "ㄊㄨㄛ",
+    "ipa": "tʰu̯ɔ"
+  },
+  {
+    "pinyin": "tuan",
+    "zhuyin": "ㄊㄨㄢ",
+    "ipa": "tʰu̯an"
+  },
+  {
+    "pinyin": "tun",
+    "zhuyin": "ㄊㄨㄣ",
+    "ipa": "tʰu̯ən"
+  },
+  {
+    "pinyin": "na",
+    "zhuyin": "ㄋㄚ",
+    "ipa": "nɑ"
+  },
+  {
+    "pinyin": "nai",
+    "zhuyin": "ㄋㄞ",
+    "ipa": "naɪ̯"
+  },
+  {
+    "pinyin": "nao",
+    "zhuyin": "ㄋㄠ",
+    "ipa": "nɑʊ̯"
+  },
+  {
+    "pinyin": "nan",
+    "zhuyin": "ㄋㄢ",
+    "ipa": "nan"
+  },
+  {
+    "pinyin": "nang",
+    "zhuyin": "ㄋㄤ",
+    "ipa": "nɑŋ"
+  },
+  {
+    "pinyin": "ne",
+    "zhuyin": "ㄋㄜ",
+    "ipa": "nɯ̯ʌ"
+  },
+  {
+    "pinyin": "nei",
+    "zhuyin": "ㄋㄟ",
+    "ipa": "neɪ̯"
+  },
+  {
+    "pinyin": "nen",
+    "zhuyin": "ㄋㄣ",
+    "ipa": "nən"
+  },
+  {
+    "pinyin": "neng",
+    "zhuyin": "ㄋㄥ",
+    "ipa": "nəŋ"
+  },
+  {
+    "pinyin": "nou",
+    "zhuyin": "ㄋㄡ",
+    "ipa": "nɤʊ̯"
+  },
+  {
+    "pinyin": "nong",
+    "zhuyin": "ㄋㄨㄥ",
+    "ipa": "nʊŋ"
+  },
+  {
+    "pinyin": "ni",
+    "zhuyin": "ㄋㄧ",
+    "ipa": "ni"
+  },
+  {
+    "pinyin": "niao",
+    "zhuyin": "ㄋㄧㄠ",
+    "ipa": "ni̯ɑʊ̯"
+  },
+  {
+    "pinyin": "nie",
+    "zhuyin": "ㄋㄧㄝ",
+    "ipa": "niɛ"
+  },
+  {
+    "pinyin": "niu",
+    "zhuyin": "ㄋㄧㄡ",
+    "ipa": "ni̯ɤʊ̯"
+  },
+  {
+    "pinyin": "nian",
+    "zhuyin": "ㄋㄧㄢ",
+    "ipa": "niɛn"
+  },
+  {
+    "pinyin": "niang",
+    "zhuyin": "ㄋㄧㄤ",
+    "ipa": "ni̯ɑŋ"
+  },
+  {
+    "pinyin": "nin",
+    "zhuyin": "ㄋㄧㄣ",
+    "ipa": "nin"
+  },
+  {
+    "pinyin": "ning",
+    "zhuyin": "ㄋㄧㄥ",
+    "ipa": "niŋ"
+  },
+  {
+    "pinyin": "nu",
+    "zhuyin": "ㄋㄨ",
+    "ipa": "nu"
+  },
+  {
+    "pinyin": "nuo",
+    "zhuyin": "ㄋㄨㄛ",
+    "ipa": "nu̯ɔ"
+  },
+  {
+    "pinyin": "nuan",
+    "zhuyin": "ㄋㄨㄢ",
+    "ipa": "nu̯an"
+  },
+  {
+    "pinyin": "nü",
+    "zhuyin": "ㄋㄩ",
+    "ipa": "ny"
+  },
+  {
+    "pinyin": "nüe",
+    "zhuyin": "ㄋㄩㄝ",
+    "ipa": "ny̯œ"
+  },
+  {
+    "pinyin": "la",
+    "zhuyin": "ㄌㄚ",
+    "ipa": "lɑ"
+  },
+  {
+    "pinyin": "lai",
+    "zhuyin": "ㄌㄞ",
+    "ipa": "laɪ̯"
+  },
+  {
+    "pinyin": "lao",
+    "zhuyin": "ㄌㄠ",
+    "ipa": "lɑʊ̯"
+  },
+  {
+    "pinyin": "lan",
+    "zhuyin": "ㄌㄢ",
+    "ipa": "lan"
+  },
+  {
+    "pinyin": "lang",
+    "zhuyin": "ㄌㄤ",
+    "ipa": "lɑŋ"
+  },
+  {
+    "pinyin": "le",
+    "zhuyin": "ㄌㄜ",
+    "ipa": "lɯ̯ʌ"
+  },
+  {
+    "pinyin": "lei",
+    "zhuyin": "ㄌㄟ",
+    "ipa": "leɪ̯"
+  },
+  {
+    "pinyin": "leng",
+    "zhuyin": "ㄌㄥ",
+    "ipa": "ləŋ"
+  },
+  {
+    "pinyin": "lo",
+    "zhuyin": "ㄌㄛ",
+    "ipa": "lu̯ɔ"
+  },
+  {
+    "pinyin": "lou",
+    "zhuyin": "ㄌㄡ",
+    "ipa": "lɤʊ̯"
+  },
+  {
+    "pinyin": "long",
+    "zhuyin": "ㄌㄨㄥ",
+    "ipa": "lʊŋ"
+  },
+  {
+    "pinyin": "li",
+    "zhuyin": "ㄌㄧ",
+    "ipa": "li"
+  },
+  {
+    "pinyin": "lia",
+    "zhuyin": "ㄌㄧㄚ",
+    "ipa": "li̯ɑ"
+  },
+  {
+    "pinyin": "liao",
+    "zhuyin": "ㄌㄧㄠ",
+    "ipa": "li̯ɑʊ̯"
+  },
+  {
+    "pinyin": "lie",
+    "zhuyin": "ㄌㄧㄝ",
+    "ipa": "liɛ"
+  },
+  {
+    "pinyin": "liu",
+    "zhuyin": "ㄌㄧㄡ",
+    "ipa": "li̯ɤʊ̯"
+  },
+  {
+    "pinyin": "lian",
+    "zhuyin": "ㄌㄧㄢ",
+    "ipa": "liɛn"
+  },
+  {
+    "pinyin": "liang",
+    "zhuyin": "ㄌㄧㄤ",
+    "ipa": "li̯ɑŋ"
+  },
+  {
+    "pinyin": "lin",
+    "zhuyin": "ㄌㄧㄣ",
+    "ipa": "lin"
+  },
+  {
+    "pinyin": "ling",
+    "zhuyin": "ㄌㄧㄥ",
+    "ipa": "liŋ"
+  },
+  {
+    "pinyin": "lu",
+    "zhuyin": "ㄌㄨ",
+    "ipa": "lu"
+  },
+  {
+    "pinyin": "luo",
+    "zhuyin": "ㄌㄨㄛ",
+    "ipa": "lu̯ɔ"
+  },
+  {
+    "pinyin": "luan",
+    "zhuyin": "ㄌㄨㄢ",
+    "ipa": "lu̯an"
+  },
+  {
+    "pinyin": "lun",
+    "zhuyin": "ㄌㄨㄣ",
+    "ipa": "lu̯ən"
+  },
+  {
+    "pinyin": "lü",
+    "zhuyin": "ㄌㄩ",
+    "ipa": "ly"
+  },
+  {
+    "pinyin": "lüe",
+    "zhuyin": "ㄌㄩㄝ",
+    "ipa": "ly̯œ"
+  },
+  {
+    "pinyin": "za",
+    "zhuyin": "ㄗㄚ",
+    "ipa": "tsɑ"
+  },
+  {
+    "pinyin": "zai",
+    "zhuyin": "ㄗㄞ",
+    "ipa": "tsaɪ̯"
+  },
+  {
+    "pinyin": "zao",
+    "zhuyin": "ㄗㄠ",
+    "ipa": "tsɑʊ̯"
+  },
+  {
+    "pinyin": "zan",
+    "zhuyin": "ㄗㄢ",
+    "ipa": "tsan"
+  },
+  {
+    "pinyin": "zang",
+    "zhuyin": "ㄗㄤ",
+    "ipa": "tsɑŋ"
+  },
+  {
+    "pinyin": "ze",
+    "zhuyin": "ㄗㄜ",
+    "ipa": "tsɯ̯ʌ"
+  },
+  {
+    "pinyin": "zei",
+    "zhuyin": "ㄗㄟ",
+    "ipa": "tseɪ̯"
+  },
+  {
+    "pinyin": "zen",
+    "zhuyin": "ㄗㄣ",
+    "ipa": "tsən"
+  },
+  {
+    "pinyin": "zeng",
+    "zhuyin": "ㄗㄥ",
+    "ipa": "tsəŋ"
+  },
+  {
+    "pinyin": "zou",
+    "zhuyin": "ㄗㄡ",
+    "ipa": "tsɤʊ̯"
+  },
+  {
+    "pinyin": "zong",
+    "zhuyin": "ㄗㄨㄥ",
+    "ipa": "tsʊŋ"
+  },
+  {
+    "pinyin": "zi",
+    "zhuyin": "ㄗ",
+    "ipa": "tsɿ"
+  },
+  {
+    "pinyin": "zu",
+    "zhuyin": "ㄗㄨ",
+    "ipa": "tsu"
+  },
+  {
+    "pinyin": "zui",
+    "zhuyin": "ㄗㄨㄟ",
+    "ipa": "tsu̯eɪ̯"
+  },
+  {
+    "pinyin": "zuo",
+    "zhuyin": "ㄗㄨㄛ",
+    "ipa": "tsu̯ɔ"
+  },
+  {
+    "pinyin": "zuan",
+    "zhuyin": "ㄗㄨㄢ",
+    "ipa": "tsu̯an"
+  },
+  {
+    "pinyin": "zun",
+    "zhuyin": "ㄗㄨㄣ",
+    "ipa": "tsu̯ən"
+  },
+  {
+    "pinyin": "ca",
+    "zhuyin": "ㄘㄚ",
+    "ipa": "tsʰɑ"
+  },
+  {
+    "pinyin": "cai",
+    "zhuyin": "ㄘㄞ",
+    "ipa": "tsʰaɪ̯"
+  },
+  {
+    "pinyin": "cao",
+    "zhuyin": "ㄘㄠ",
+    "ipa": "tsʰɑʊ̯"
+  },
+  {
+    "pinyin": "can",
+    "zhuyin": "ㄘㄢ",
+    "ipa": "tsʰan"
+  },
+  {
+    "pinyin": "cang",
+    "zhuyin": "ㄘㄤ",
+    "ipa": "tsʰɑŋ"
+  },
+  {
+    "pinyin": "ce",
+    "zhuyin": "ㄘㄜ",
+    "ipa": "tsʰɯ̯ʌ"
+  },
+  {
+    "pinyin": "cei",
+    "zhuyin": "ㄘㄟ",
+    "ipa": "tsʰeɪ̯"
+  },
+  {
+    "pinyin": "cen",
+    "zhuyin": "ㄘㄣ",
+    "ipa": "tsʰən"
+  },
+  {
+    "pinyin": "ceng",
+    "zhuyin": "ㄘㄥ",
+    "ipa": "tsʰəŋ"
+  },
+  {
+    "pinyin": "cou",
+    "zhuyin": "ㄘㄡ",
+    "ipa": "tsʰɤʊ̯"
+  },
+  {
+    "pinyin": "cong",
+    "zhuyin": "ㄘㄨㄥ",
+    "ipa": "tsʰʊŋ"
+  },
+  {
+    "pinyin": "ci",
+    "zhuyin": "ㄘ",
+    "ipa": "tsʰɿ"
+  },
+  {
+    "pinyin": "cu",
+    "zhuyin": "ㄘㄨ",
+    "ipa": "tsʰu"
+  },
+  {
+    "pinyin": "cui",
+    "zhuyin": "ㄘㄨㄟ",
+    "ipa": "tsʰu̯eɪ̯"
+  },
+  {
+    "pinyin": "cuo",
+    "zhuyin": "ㄘㄨㄛ",
+    "ipa": "tsʰu̯ɔ"
+  },
+  {
+    "pinyin": "cuan",
+    "zhuyin": "ㄘㄨㄢ",
+    "ipa": "tsʰu̯an"
+  },
+  {
+    "pinyin": "cun",
+    "zhuyin": "ㄘㄨㄣ",
+    "ipa": "tsʰu̯ən"
+  },
+  {
+    "pinyin": "sa",
+    "zhuyin": "ㄙㄚ",
+    "ipa": "sɑ"
+  },
+  {
+    "pinyin": "sai",
+    "zhuyin": "ㄙㄞ",
+    "ipa": "saɪ̯"
+  },
+  {
+    "pinyin": "sao",
+    "zhuyin": "ㄙㄠ",
+    "ipa": "sɑʊ̯"
+  },
+  {
+    "pinyin": "san",
+    "zhuyin": "ㄙㄢ",
+    "ipa": "san"
+  },
+  {
+    "pinyin": "sang",
+    "zhuyin": "ㄙㄤ",
+    "ipa": "sɑŋ"
+  },
+  {
+    "pinyin": "se",
+    "zhuyin": "ㄙㄜ",
+    "ipa": "sɯ̯ʌ"
+  },
+  {
+    "pinyin": "sen",
+    "zhuyin": "ㄙㄣ",
+    "ipa": "sən"
+  },
+  {
+    "pinyin": "seng",
+    "zhuyin": "ㄙㄥ",
+    "ipa": "səŋ"
+  },
+  {
+    "pinyin": "sou",
+    "zhuyin": "ㄙㄡ",
+    "ipa": "sɤʊ̯"
+  },
+  {
+    "pinyin": "song",
+    "zhuyin": "ㄙㄨㄥ",
+    "ipa": "sʊŋ"
+  },
+  {
+    "pinyin": "si",
+    "zhuyin": "ㄙ",
+    "ipa": "sɿ"
+  },
+  {
+    "pinyin": "su",
+    "zhuyin": "ㄙㄨ",
+    "ipa": "su"
+  },
+  {
+    "pinyin": "sui",
+    "zhuyin": "ㄙㄨㄟ",
+    "ipa": "su̯eɪ̯"
+  },
+  {
+    "pinyin": "suo",
+    "zhuyin": "ㄙㄨㄛ",
+    "ipa": "su̯ɔ"
+  },
+  {
+    "pinyin": "suan",
+    "zhuyin": "ㄙㄨㄢ",
+    "ipa": "su̯an"
+  },
+  {
+    "pinyin": "sun",
+    "zhuyin": "ㄙㄨㄣ",
+    "ipa": "su̯ən"
+  },
+  {
+    "pinyin": "zha",
+    "zhuyin": "ㄓㄚ",
+    "ipa": "tʂɑ"
+  },
+  {
+    "pinyin": "zhai",
+    "zhuyin": "ㄓㄞ",
+    "ipa": "tʂaɪ̯"
+  },
+  {
+    "pinyin": "zhao",
+    "zhuyin": "ㄓㄠ",
+    "ipa": "tʂɑʊ̯"
+  },
+  {
+    "pinyin": "zhan",
+    "zhuyin": "ㄓㄢ",
+    "ipa": "tʂan"
+  },
+  {
+    "pinyin": "zhang",
+    "zhuyin": "ㄓㄤ",
+    "ipa": "tʂɑŋ"
+  },
+  {
+    "pinyin": "zhe",
+    "zhuyin": "ㄓㄜ",
+    "ipa": "tʂɯ̯ʌ"
+  },
+  {
+    "pinyin": "zhei",
+    "zhuyin": "ㄓㄟ",
+    "ipa": "tʂeɪ̯"
+  },
+  {
+    "pinyin": "zhen",
+    "zhuyin": "ㄓㄣ",
+    "ipa": "tʂən"
+  },
+  {
+    "pinyin": "zheng",
+    "zhuyin": "ㄓㄥ",
+    "ipa": "tʂəŋ"
+  },
+  {
+    "pinyin": "zhou",
+    "zhuyin": "ㄓㄡ",
+    "ipa": "tʂɤʊ̯"
+  },
+  {
+    "pinyin": "zhong",
+    "zhuyin": "ㄓㄨㄥ",
+    "ipa": "tʂʊŋ"
+  },
+  {
+    "pinyin": "zhi",
+    "zhuyin": "ㄓ",
+    "ipa": "tʂʅ"
+  },
+  {
+    "pinyin": "zhu",
+    "zhuyin": "ㄓㄨ",
+    "ipa": "tʂu"
+  },
+  {
+    "pinyin": "zhua",
+    "zhuyin": "ㄓㄨㄚ",
+    "ipa": "tʂu̯ɑ"
+  },
+  {
+    "pinyin": "zhuai",
+    "zhuyin": "ㄓㄨㄞ",
+    "ipa": "tʂu̯aɪ̯"
+  },
+  {
+    "pinyin": "zhui",
+    "zhuyin": "ㄓㄨㄟ",
+    "ipa": "tʂu̯eɪ̯"
+  },
+  {
+    "pinyin": "zhuo",
+    "zhuyin": "ㄓㄨㄛ",
+    "ipa": "tʂu̯ɔ"
+  },
+  {
+    "pinyin": "zhuan",
+    "zhuyin": "ㄓㄨㄢ",
+    "ipa": "tʂu̯an"
+  },
+  {
+    "pinyin": "zhuang",
+    "zhuyin": "ㄓㄨㄤ",
+    "ipa": "tʂ̯u̯ɑŋ"
+  },
+  {
+    "pinyin": "zhun",
+    "zhuyin": "ㄓㄨㄣ",
+    "ipa": "tʂu̯ən"
+  },
+  {
+    "pinyin": "cha",
+    "zhuyin": "ㄔㄚ",
+    "ipa": "tʂʰɑ"
+  },
+  {
+    "pinyin": "chai",
+    "zhuyin": "ㄔㄞ",
+    "ipa": "tʂʰaɪ̯"
+  },
+  {
+    "pinyin": "chao",
+    "zhuyin": "ㄔㄠ",
+    "ipa": "tʂʰɑʊ̯"
+  },
+  {
+    "pinyin": "chan",
+    "zhuyin": "ㄔㄢ",
+    "ipa": "tʂʰan"
+  },
+  {
+    "pinyin": "chang",
+    "zhuyin": "ㄔㄤ",
+    "ipa": "tʂʰɑŋ"
+  },
+  {
+    "pinyin": "che",
+    "zhuyin": "ㄔㄜ",
+    "ipa": "tʂʰɯ̯ʌ"
+  },
+  {
+    "pinyin": "chen",
+    "zhuyin": "ㄔㄣ",
+    "ipa": "tʂʰən"
+  },
+  {
+    "pinyin": "cheng",
+    "zhuyin": "ㄔㄥ",
+    "ipa": "tʂʰəŋ"
+  },
+  {
+    "pinyin": "chou",
+    "zhuyin": "ㄔㄡ",
+    "ipa": "tʂʰɤʊ̯"
+  },
+  {
+    "pinyin": "chong",
+    "zhuyin": "ㄔㄨㄥ",
+    "ipa": "tʂʰʊŋ"
+  },
+  {
+    "pinyin": "chi",
+    "zhuyin": "ㄔ",
+    "ipa": "tʂʰʅ"
+  },
+  {
+    "pinyin": "chu",
+    "zhuyin": "ㄔㄨ",
+    "ipa": "tʂʰu"
+  },
+  {
+    "pinyin": "chua",
+    "zhuyin": "ㄔㄨㄚ",
+    "ipa": "tʂʰu̯ɑ"
+  },
+  {
+    "pinyin": "chuai",
+    "zhuyin": "ㄔㄨㄞ",
+    "ipa": "tʂʰu̯aɪ̯"
+  },
+  {
+    "pinyin": "chui",
+    "zhuyin": "ㄔㄨㄟ",
+    "ipa": "tʂʰu̯eɪ̯"
+  },
+  {
+    "pinyin": "chuo",
+    "zhuyin": "ㄔㄨㄛ",
+    "ipa": "tʂʰu̯ɔ"
+  },
+  {
+    "pinyin": "chuan",
+    "zhuyin": "ㄔㄨㄢ",
+    "ipa": "tʂʰu̯an"
+  },
+  {
+    "pinyin": "chuang",
+    "zhuyin": "ㄔㄨㄤ",
+    "ipa": "tʂʰu̯ɑŋ"
+  },
+  {
+    "pinyin": "chun",
+    "zhuyin": "ㄔㄨㄣ",
+    "ipa": "tʂʰu̯ən"
+  },
+  {
+    "pinyin": "sha",
+    "zhuyin": "ㄕㄚ",
+    "ipa": "ʂɑ"
+  },
+  {
+    "pinyin": "shai",
+    "zhuyin": "ㄕㄞ",
+    "ipa": "ʂaɪ̯"
+  },
+  {
+    "pinyin": "shao",
+    "zhuyin": "ㄕㄠ",
+    "ipa": "ʂɑʊ̯"
+  },
+  {
+    "pinyin": "shan",
+    "zhuyin": "ㄕㄢ",
+    "ipa": "ʂan"
+  },
+  {
+    "pinyin": "shang",
+    "zhuyin": "ㄕㄤ",
+    "ipa": "ʂɑŋ"
+  },
+  {
+    "pinyin": "she",
+    "zhuyin": "ㄕㄜ",
+    "ipa": "ʂɯ̯ʌ"
+  },
+  {
+    "pinyin": "shei",
+    "zhuyin": "ㄕㄟ",
+    "ipa": "ʂeɪ̯"
+  },
+  {
+    "pinyin": "shen",
+    "zhuyin": "ㄕㄣ",
+    "ipa": "ʂən"
+  },
+  {
+    "pinyin": "sheng",
+    "zhuyin": "ㄕㄥ",
+    "ipa": "ʂəŋ"
+  },
+  {
+    "pinyin": "shou",
+    "zhuyin": "ㄕㄡ",
+    "ipa": "ʂɤʊ̯"
+  },
+  {
+    "pinyin": "shi",
+    "zhuyin": "ㄕ",
+    "ipa": "ʂʅ"
+  },
+  {
+    "pinyin": "shu",
+    "zhuyin": "ㄕㄨ",
+    "ipa": "ʂu"
+  },
+  {
+    "pinyin": "shua",
+    "zhuyin": "ㄕㄨㄚ",
+    "ipa": "ʂu̯ɑ"
+  },
+  {
+    "pinyin": "shuai",
+    "zhuyin": "ㄕㄨㄞ",
+    "ipa": "ʂu̯aɪ̯"
+  },
+  {
+    "pinyin": "shui",
+    "zhuyin": "ㄕㄨㄟ",
+    "ipa": "ʂu̯eɪ̯"
+  },
+  {
+    "pinyin": "shuo",
+    "zhuyin": "ㄕㄨㄛ",
+    "ipa": "ʂu̯ɔ"
+  },
+  {
+    "pinyin": "shuan",
+    "zhuyin": "ㄕㄨㄢ",
+    "ipa": "ʂu̯an"
+  },
+  {
+    "pinyin": "shuang",
+    "zhuyin": "ㄕㄨㄤ",
+    "ipa": "ʂu̯ɑŋ"
+  },
+  {
+    "pinyin": "shun",
+    "zhuyin": "ㄕㄨㄣ",
+    "ipa": "ʂu̯ən"
+  },
+  {
+    "pinyin": "rao",
+    "zhuyin": "ㄖㄠ",
+    "ipa": "ʐɑʊ̯"
+  },
+  {
+    "pinyin": "ran",
+    "zhuyin": "ㄖㄢ",
+    "ipa": "ʐan"
+  },
+  {
+    "pinyin": "rang",
+    "zhuyin": "ㄖㄤ",
+    "ipa": "ʐɑŋ"
+  },
+  {
+    "pinyin": "re",
+    "zhuyin": "ㄖㄜ",
+    "ipa": "ʐɯ̯ʌ"
+  },
+  {
+    "pinyin": "ren",
+    "zhuyin": "ㄖㄣ",
+    "ipa": "ʐən"
+  },
+  {
+    "pinyin": "reng",
+    "zhuyin": "ㄖㄥ",
+    "ipa": "ʐəŋ"
+  },
+  {
+    "pinyin": "rou",
+    "zhuyin": "ㄖㄡ",
+    "ipa": "ʐɤʊ̯"
+  },
+  {
+    "pinyin": "rong",
+    "zhuyin": "ㄖㄨㄥ",
+    "ipa": "ʐʊŋ"
+  },
+  {
+    "pinyin": "ri",
+    "zhuyin": "ㄖ",
+    "ipa": "ʐʅ"
+  },
+  {
+    "pinyin": "ru",
+    "zhuyin": "ㄖㄨ",
+    "ipa": "ʐu"
+  },
+  {
+    "pinyin": "rua",
+    "zhuyin": "ㄖㄨㄚ",
+    "ipa": "ʐu̯ɑ"
+  },
+  {
+    "pinyin": "rui",
+    "zhuyin": "ㄖㄨㄟ",
+    "ipa": "ʐu̯eɪ̯"
+  },
+  {
+    "pinyin": "ruo",
+    "zhuyin": "ㄖㄨㄛ",
+    "ipa": "ʐu̯ɔ"
+  },
+  {
+    "pinyin": "ruan",
+    "zhuyin": "ㄖㄨㄢ",
+    "ipa": "ʐu̯an"
+  },
+  {
+    "pinyin": "run",
+    "zhuyin": "ㄖㄨㄣ",
+    "ipa": "ʐu̯ən"
+  },
+  {
+    "pinyin": "ji",
+    "zhuyin": "ㄐㄧ",
+    "ipa": "tɕi"
+  },
+  {
+    "pinyin": "jia",
+    "zhuyin": "ㄐㄧㄚ",
+    "ipa": "tɕi̯ɑ"
+  },
+  {
+    "pinyin": "jiao",
+    "zhuyin": "ㄐㄧㄠ",
+    "ipa": "tɕi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "jie",
+    "zhuyin": "ㄐㄧㄝ",
+    "ipa": "tɕiɛ"
+  },
+  {
+    "pinyin": "jiu",
+    "zhuyin": "ㄐㄧㄡ",
+    "ipa": "tɕi̯ɤʊ̯"
+  },
+  {
+    "pinyin": "jian",
+    "zhuyin": "ㄐㄧㄢ",
+    "ipa": "tɕiɛn"
+  },
+  {
+    "pinyin": "jiang",
+    "zhuyin": "ㄐㄧㄤ",
+    "ipa": "tɕi̯ɑŋ"
+  },
+  {
+    "pinyin": "jin",
+    "zhuyin": "ㄐㄧㄣ",
+    "ipa": "tɕin"
+  },
+  {
+    "pinyin": "jing",
+    "zhuyin": "ㄐㄧㄥ",
+    "ipa": "tɕiŋ"
+  },
+  {
+    "pinyin": "jiong",
+    "zhuyin": "ㄐㄩㄥ",
+    "ipa": "tɕi̯ʊŋ"
+  },
+  {
+    "pinyin": "ju",
+    "zhuyin": "ㄐㄩ",
+    "ipa": "tɕy"
+  },
+  {
+    "pinyin": "jue",
+    "zhuyin": "ㄐㄩㄝ",
+    "ipa": "tɕy̯œ"
+  },
+  {
+    "pinyin": "juan",
+    "zhuyin": "ㄐㄩㄢ",
+    "ipa": "tɕy̯ɛn"
+  },
+  {
+    "pinyin": "jun",
+    "zhuyin": "ㄐㄩㄣ",
+    "ipa": "tɕyn"
+  },
+  {
+    "pinyin": "qi",
+    "zhuyin": "ㄑㄧ",
+    "ipa": "tɕʰi"
+  },
+  {
+    "pinyin": "qia",
+    "zhuyin": "ㄑㄧㄚ",
+    "ipa": "tɕʰi̯ɑ"
+  },
+  {
+    "pinyin": "qiao",
+    "zhuyin": "ㄑㄧㄠ",
+    "ipa": "tɕʰi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "qie",
+    "zhuyin": "ㄑㄧㄝ",
+    "ipa": "tɕʰiɛ"
+  },
+  {
+    "pinyin": "qiu",
+    "zhuyin": "ㄑㄧㄡ",
+    "ipa": "tɕʰi̯ɤʊ̯"
+  },
+  {
+    "pinyin": "qian",
+    "zhuyin": "ㄑㄧㄢ",
+    "ipa": "tɕʰiɛn"
+  },
+  {
+    "pinyin": "qiang",
+    "zhuyin": "ㄑㄧㄤ",
+    "ipa": "tɕʰi̯ɑŋ"
+  },
+  {
+    "pinyin": "qin",
+    "zhuyin": "ㄑㄧㄣ",
+    "ipa": "tɕʰin"
+  },
+  {
+    "pinyin": "qing",
+    "zhuyin": "ㄑㄧㄥ",
+    "ipa": "tɕʰiŋ"
+  },
+  {
+    "pinyin": "qiong",
+    "zhuyin": "ㄑㄩㄥ",
+    "ipa": "tɕʰi̯ʊŋ"
+  },
+  {
+    "pinyin": "qu",
+    "zhuyin": "ㄑㄩ",
+    "ipa": "tɕʰy"
+  },
+  {
+    "pinyin": "que",
+    "zhuyin": "ㄑㄩㄝ",
+    "ipa": "tɕʰy̯œ"
+  },
+  {
+    "pinyin": "quan",
+    "zhuyin": "ㄑㄩㄢ",
+    "ipa": "tɕʰy̯ɛn"
+  },
+  {
+    "pinyin": "qun",
+    "zhuyin": "ㄑㄩㄣ",
+    "ipa": "tɕʰyn"
+  },
+  {
+    "pinyin": "xi",
+    "zhuyin": "ㄒㄧ",
+    "ipa": "ɕi"
+  },
+  {
+    "pinyin": "xia",
+    "zhuyin": "ㄒㄧㄚ",
+    "ipa": "ɕi̯ɑ"
+  },
+  {
+    "pinyin": "xiao",
+    "zhuyin": "ㄒㄧㄠ",
+    "ipa": "ɕi̯ɑʊ̯"
+  },
+  {
+    "pinyin": "xie",
+    "zhuyin": "ㄒㄧㄝ",
+    "ipa": "ɕiɛ"
+  },
+  {
+    "pinyin": "xiu",
+    "zhuyin": "ㄒㄧㄡ",
+    "ipa": "ɕi̯ɤʊ̯"
+  },
+  {
+    "pinyin": "xian",
+    "zhuyin": "ㄒㄧㄢ",
+    "ipa": "ɕiɛn"
+  },
+  {
+    "pinyin": "xiang",
+    "zhuyin": "ㄒㄧㄤ",
+    "ipa": "ɕi̯ɑŋ"
+  },
+  {
+    "pinyin": "xin",
+    "zhuyin": "ㄒㄧㄣ",
+    "ipa": "ɕin"
+  },
+  {
+    "pinyin": "xing",
+    "zhuyin": "ㄒㄧㄥ",
+    "ipa": "ɕiŋ"
+  },
+  {
+    "pinyin": "xiong",
+    "zhuyin": "ㄒㄩㄥ",
+    "ipa": "ɕi̯ʊŋ"
+  },
+  {
+    "pinyin": "xu",
+    "zhuyin": "ㄒㄩ",
+    "ipa": "ɕy"
+  },
+  {
+    "pinyin": "xue",
+    "zhuyin": "ㄒㄩㄝ",
+    "ipa": "ɕy̯œ"
+  },
+  {
+    "pinyin": "xuan",
+    "zhuyin": "ㄒㄩㄢ",
+    "ipa": "ɕy̯ɛn"
+  },
+  {
+    "pinyin": "xun",
+    "zhuyin": "ㄒㄩㄣ",
+    "ipa": "ɕyn"
+  },
+  {
+    "pinyin": "ga",
+    "zhuyin": "ㄚ",
+    "ipa": "kɑ"
+  },
+  {
+    "pinyin": "gai",
+    "zhuyin": "ㄞ",
+    "ipa": "kaɪ̯"
+  },
+  {
+    "pinyin": "gao",
+    "zhuyin": "ㄠ",
+    "ipa": "kɑʊ̯"
+  },
+  {
+    "pinyin": "gan",
+    "zhuyin": "ㄢ",
+    "ipa": "kan"
+  },
+  {
+    "pinyin": "gang",
+    "zhuyin": "ㄤ",
+    "ipa": "kɑŋ"
+  },
+  {
+    "pinyin": "ge",
+    "zhuyin": "ㄜ",
+    "ipa": "kɯ̯ʌ"
+  },
+  {
+    "pinyin": "gei",
+    "zhuyin": "ㄟ",
+    "ipa": "keɪ̯"
+  },
+  {
+    "pinyin": "gen",
+    "zhuyin": "ㄣ",
+    "ipa": "kən"
+  },
+  {
+    "pinyin": "geng",
+    "zhuyin": "ㄥ",
+    "ipa": "kəŋ"
+  },
+  {
+    "pinyin": "gou",
+    "zhuyin": "ㄡ",
+    "ipa": "kɤʊ̯"
+  },
+  {
+    "pinyin": "gong",
+    "zhuyin": "ㄨㄥ",
+    "ipa": "kʊŋ"
+  },
+  {
+    "pinyin": "gu",
+    "zhuyin": "ㄨ",
+    "ipa": "ku"
+  },
+  {
+    "pinyin": "gua",
+    "zhuyin": "ㄨㄚ",
+    "ipa": "ku̯ɑ"
+  },
+  {
+    "pinyin": "guai",
+    "zhuyin": "ㄨㄞ",
+    "ipa": "ku̯aɪ̯"
+  },
+  {
+    "pinyin": "gui",
+    "zhuyin": "ㄨㄟ",
+    "ipa": "ku̯eɪ̯"
+  },
+  {
+    "pinyin": "guo",
+    "zhuyin": "ㄨㄛ",
+    "ipa": "ku̯ɔ"
+  },
+  {
+    "pinyin": "guan",
+    "zhuyin": "ㄨㄢ",
+    "ipa": "ku̯an"
+  },
+  {
+    "pinyin": "guang",
+    "zhuyin": "ㄨㄤ",
+    "ipa": "ku̯ɑŋ"
+  },
+  {
+    "pinyin": "gun",
+    "zhuyin": "ㄨㄣ",
+    "ipa": "ku̯ən"
+  },
+  {
+    "pinyin": "ka",
+    "zhuyin": "ㄎㄚ",
+    "ipa": "kʰɑ"
+  },
+  {
+    "pinyin": "kai",
+    "zhuyin": "ㄎㄞ",
+    "ipa": "kʰaɪ̯"
+  },
+  {
+    "pinyin": "kao",
+    "zhuyin": "ㄎㄠ",
+    "ipa": "kʰɑʊ̯"
+  },
+  {
+    "pinyin": "kan",
+    "zhuyin": "ㄎㄢ",
+    "ipa": "kʰan"
+  },
+  {
+    "pinyin": "kang",
+    "zhuyin": "ㄎㄤ",
+    "ipa": "kʰɑŋ"
+  },
+  {
+    "pinyin": "ke",
+    "zhuyin": "ㄎㄜ",
+    "ipa": "kʰɯ̯ʌ"
+  },
+  {
+    "pinyin": "kei",
+    "zhuyin": "ㄎㄟ",
+    "ipa": "kʰeɪ̯"
+  },
+  {
+    "pinyin": "ken",
+    "zhuyin": "ㄎㄣ",
+    "ipa": "kʰən"
+  },
+  {
+    "pinyin": "keng",
+    "zhuyin": "ㄎㄥ",
+    "ipa": "kʰəŋ"
+  },
+  {
+    "pinyin": "kou",
+    "zhuyin": "ㄎㄡ",
+    "ipa": "kʰɤʊ̯"
+  },
+  {
+    "pinyin": "kong",
+    "zhuyin": "ㄎㄨㄥ",
+    "ipa": "kʰʊŋ"
+  },
+  {
+    "pinyin": "ku",
+    "zhuyin": "ㄎㄨ",
+    "ipa": "kʰu"
+  },
+  {
+    "pinyin": "kua",
+    "zhuyin": "ㄎㄨㄚ",
+    "ipa": "kʰu̯ɑ"
+  },
+  {
+    "pinyin": "kuai",
+    "zhuyin": "ㄎㄨㄞ",
+    "ipa": "kʰu̯aɪ̯"
+  },
+  {
+    "pinyin": "kui",
+    "zhuyin": "ㄎㄨㄟ",
+    "ipa": "kʰu̯eɪ̯"
+  },
+  {
+    "pinyin": "kuo",
+    "zhuyin": "ㄎㄨㄛ",
+    "ipa": "kʰu̯ɔ"
+  },
+  {
+    "pinyin": "kuan",
+    "zhuyin": "ㄎㄨㄢ",
+    "ipa": "kʰu̯an"
+  },
+  {
+    "pinyin": "kuang",
+    "zhuyin": "ㄎㄨㄤ",
+    "ipa": "kʰu̯ɑŋ"
+  },
+  {
+    "pinyin": "kun",
+    "zhuyin": "ㄎㄨㄣ",
+    "ipa": "kʰu̯ən"
+  },
+  {
+    "pinyin": "ha",
+    "zhuyin": "ㄏㄚ",
+    "ipa": "xɑ"
+  },
+  {
+    "pinyin": "hai",
+    "zhuyin": "ㄏㄞ",
+    "ipa": "xaɪ̯"
+  },
+  {
+    "pinyin": "hao",
+    "zhuyin": "ㄏㄠ",
+    "ipa": "xɑʊ̯"
+  },
+  {
+    "pinyin": "han",
+    "zhuyin": "ㄏㄢ",
+    "ipa": "xan"
+  },
+  {
+    "pinyin": "hang",
+    "zhuyin": "ㄏㄤ",
+    "ipa": "xɑŋ"
+  },
+  {
+    "pinyin": "he",
+    "zhuyin": "ㄏㄜ",
+    "ipa": "xɯ̯ʌ"
+  },
+  {
+    "pinyin": "hei",
+    "zhuyin": "ㄏㄟ",
+    "ipa": "xeɪ̯"
+  },
+  {
+    "pinyin": "hen",
+    "zhuyin": "ㄏㄣ",
+    "ipa": "xən"
+  },
+  {
+    "pinyin": "heng",
+    "zhuyin": "ㄏㄥ",
+    "ipa": "xəŋ"
+  },
+  {
+    "pinyin": "hou",
+    "zhuyin": "ㄏㄡ",
+    "ipa": "xɤʊ̯"
+  },
+  {
+    "pinyin": "hong",
+    "zhuyin": "ㄏㄨㄥ",
+    "ipa": "xʊŋ"
+  },
+  {
+    "pinyin": "hu",
+    "zhuyin": "ㄏㄨ",
+    "ipa": "xu"
+  },
+  {
+    "pinyin": "hua",
+    "zhuyin": "ㄏㄨㄚ",
+    "ipa": "xu̯ɑ"
+  },
+  {
+    "pinyin": "huai",
+    "zhuyin": "ㄏㄨㄞ",
+    "ipa": "xu̯aɪ̯"
+  },
+  {
+    "pinyin": "hui",
+    "zhuyin": "ㄏㄨㄟ",
+    "ipa": "xu̯eɪ̯"
+  },
+  {
+    "pinyin": "huo",
+    "zhuyin": "ㄏㄨㄛ",
+    "ipa": "xu̯ɔ"
+  },
+  {
+    "pinyin": "huan",
+    "zhuyin": "ㄏㄨㄢ",
+    "ipa": "xu̯an"
+  },
+  {
+    "pinyin": "huang",
+    "zhuyin": "ㄏㄨㄤ",
+    "ipa": "xu̯ɑŋ"
+  },
+  {
+    "pinyin": "hun",
+    "zhuyin": "ㄏㄨㄣ",
+    "ipa": "xu̯ən"
+  }
+]

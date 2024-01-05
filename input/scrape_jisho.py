@@ -61,5 +61,5 @@ print("Uncomment code if you're very sure about pinging sweet little Jisho 6000 
 #     # Introduce a small delay to avoid API rate limits
 #     time.sleep(0.5)
         
-# with open("../src/conversion/japanese.json", "w", encoding="utf-8") as output_file:
+# with open("../src/conversion/kanji_info.json", "w", encoding="utf-8") as output_file:
 #     json.dump(result_json, output_file, ensure_ascii=False, indent=2)
