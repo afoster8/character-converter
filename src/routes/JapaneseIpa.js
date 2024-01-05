@@ -102,10 +102,10 @@ const JapaneseIpa = () => {
 
       </div>
       <div className="footer">
-        <p>Creator of these tools is intermediate at Japanesr at best. Use at your own peril.</p>
+        <p>Creator of these tools is intermediate at Japanese at best. Use at your own peril.</p>
         <br />
-        <p>Sources for kana/romaji/IPA were a collection of the creator's own knowledge and  mapping can be found
-          <a href="https://wiktionary.org">Wiktionary</a>.</p>
+        <p>Sources for kana/romaji/IPA were a collection of the creator's own knowledge and some help from
+          <a href="https://wiktionary.org"> Wiktionary</a>.</p>
       </div >
     </div>
   );

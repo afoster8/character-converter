@@ -15,19 +15,34 @@ const ZhuyinIpa = () => {
     setError("");
 
     try {
+      var input = ""
 
       switch (selection) {
+
         case "zhuyin-input":
+
+          input = document.getElementById("zhuyin-input").value.trim();
+
+          if (!input) {
+            throw new Error("You haven't entered anything!");
+          }
+
           result = convertToIpa(json);
-          setZhuyinInput(document.getElementById("input-zhuyin").value);
+          setZhuyinInput(document.getElementById("zhuyin-input").value);
           setIpaResult(result);
 
           break;
 
-        case "input-ipa":
-          console.log(selection)
+        case "ipa-input":
+
+          input = document.getElementById("ipa-input").value.trim();
+
+          if (!input) {
+            throw new Error("You haven't entered anything!");
+          }
+
           result = convertToZhuyin(json);
-          setIpaInput(document.getElementById("input-ipa").value);
+          setIpaInput(document.getElementById("ipa-input").value);
           setZhuyinResult(result);
           break;
 
@@ -62,7 +77,7 @@ const ZhuyinIpa = () => {
 
 
             <div className="input-container-conversion">
-              <input type="text" id="input-zhuyin" maxLength={20}></input>
+              <input type="text" id="zhuyin-input" maxLength={20}></input>
               <button onClick={() => handleConvertClick("zhuyin-input")}>Convert</button>
             </div>
 
@@ -90,8 +105,8 @@ const ZhuyinIpa = () => {
 
 
             <div className="input-container-conversion">
-              <input type="text" id="input-ipa" maxLength={20}></input>
-              <button onClick={() => handleConvertClick("input-ipa")}>Convert</button>
+              <input type="text" id="ipa-input" maxLength={20}></input>
+              <button onClick={() => handleConvertClick("ipa-input")}>Convert</button>
             </div>
 
             {zhuyinResult &&
