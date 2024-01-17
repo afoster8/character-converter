@@ -16,7 +16,6 @@
   width: 100%;
   border-radius: 10px;
   margin-top: 20px;
-  background-color: #1a1a1a;
   padding: 10px;
 }
 
@@ -24,7 +23,6 @@
   width: 100%;
   margin-top: 20px;
   text-align: center;
-  flex-direction: column;
 }
 
 .input-container label {
@@ -176,7 +174,32 @@ button {
   font-size: 15px;
 }
 
+.character-info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.readings {
+  margin-top: 10px;
+}
+
+.readings-info {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
 
 @keyframes fadeIn {
   from {

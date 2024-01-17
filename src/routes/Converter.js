@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import japn_json from "../conversion/kanji_conversion.json"
-import trad_json from "../conversion/traditional_conversion.json"
-import simp_json from "../conversion/simplified_conversion.json"
+import japnJson from "../conversion/kanji_conversion.json"
+import tradJson from "../conversion/traditional_conversion.json"
+import simpJson from "../conversion/simplified_conversion.json"
+import hanziJson from "../conversion/hanzi_info.json"
+import kanjiJson from "../conversion/kanji_info.json"
 import "./Converter.css"
 
 const Converter = () => {
-
   const [showKanjiInfo, setShowKanjiInfo] = useState(false);
   const [showTraditionalInfo, setShowTraditionalInfo] = useState(false);
   const [showSimplifiedInfo, setShowSimplifiedInfo] = useState(false);
@@ -42,13 +43,12 @@ const Converter = () => {
   };
 
   const generateJapaneseMatches = (kanji) => {
-
-    if (!japn_json) {
+    if (!japnJson) {
       throw new Error("Japanese dictionary is gone!")
     }
 
     try {
-      const result = japn_json.data;
+      const result = japnJson.data;
       const matchingRow = result.find(row => row[0] === kanji);
 
       if (matchingRow) {
@@ -61,28 +61,27 @@ const Converter = () => {
       }
 
     } catch (error) {
-      throw new Error(error)
+      throw error;
     }
   };
 
   const generateChineseMatches = (hanzi) => {
-
-    if (!trad_json || !simp_json) {
+    if (!tradJson || !simpJson) {
       throw new Error("Chinese dictionary is gone!")
     }
 
     try {
-      const result = simp_json.data;
+      const result = simpJson.data;
       const matchingRow = result.find(row => row[0] === hanzi)
 
       if (matchingRow) {
         const kanji = matchingRow[1] ? matchingRow[1] : "n/a";
         const traditional = matchingRow[2] ? matchingRow[2] : "n/a";
-        console.log("within function: " + hanzi)
+
         return { kanji, simplified: hanzi, traditional };
 
       } else {
-        const result = trad_json.data;
+        const result = tradJson.data;
         const matchingRow = result.find(row => row[0] === hanzi)
 
         if (matchingRow) {
@@ -96,13 +95,16 @@ const Converter = () => {
       }
 
     } catch (error) {
-      throw new Error(error)
+      throw error;
     }
   };
 
 
   const handleMatchClick = () => {
     setError("");
+    setShowKanjiInfo(false);
+    setShowSimplifiedInfo(false);
+    setShowTraditionalInfo(false);
 
     try {
       const character = document.getElementById("input-character").value;
@@ -114,20 +116,30 @@ const Converter = () => {
       if (language === "japanese") {
         try {
           const { kanji, simplified, traditional } = generateJapaneseMatches(character);
+
+          if (simplified === "n/a" && traditional === "n/a") {
+            throw new Error("No matches found");
+          }
+
           setResult({ kanji, simplified, traditional });
 
         } catch (error) {
-          throw new Error(error)
+          throw error;
         }
 
       } else if (language === "chinese") {
 
         try {
           const { kanji, simplified, traditional } = generateChineseMatches(character);
+
+          if (kanji === "n/a" && (traditional === "n/a" || simplified === "n/a")) {
+            throw new Error("No matches found");
+          }
+
           setResult({ kanji, simplified, traditional });
 
         } catch (error) {
-          throw new Error(error)
+          throw error;
         }
 
       }
@@ -141,40 +153,68 @@ const Converter = () => {
     }
   };
 
-  const renderChineseCharacterInfo = (character) => {
-    return (
-      <div className="character-info">
-        <h3>{character}</h3>
-        <p>Strokes: </p>
-        <p>Meanings: </p>
-        <div className="readings">
-          <p>Readings: </p>
-          <div className="readings-info">
-            <p>Zhuyin: </p>
-            <p>Pinyin: </p>
-            <p>IPA: </p>
+  const renderChineseCharacterInfo = (character, mode) => {
+    if (character) {
+      var match = hanziJson.find(entry => entry.character === character);
+
+      if (match) {
+        return (
+          <div className="character-info">
+            <h3>{character}</h3>
+            <table>
+              <tbody>
+                <tr>
+                  <td><strong>Strokes</strong></td>
+                  <td>{match.strokes[mode]}</td>
+                </tr>
+                <tr>
+                  <td><strong>Meanings</strong></td>
+                  <td>{match.meanings.join(", ")}</td>
+                </tr>
+                <tr>
+                  <td><strong>Pinyin</strong></td>
+                  <td>{match.readings_man[mode]}</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-        </div>
-      </div>
-    );
+        );
+
+      }
+    }
   };
 
   const renderJapaneseCharacterInfo = (character) => {
-    return (
-      <div className="character-info">
-        <h3>{character}</h3>
-        <p>Strokes: </p>
-        <p>Meanings: </p>
-        <div className="readings">
-          <p>Readings: </p>
-          <div className="readings-info">
-            <p>On: </p>
-            <p>Kun: </p>
-            <p>IPA: </p>
+    if (character) {
+      var match = kanjiJson.find(entry => entry.character === character);
+
+      if (match) {
+        return (
+          <div className="character-info">
+            <h3>{character}</h3>
+            <table>
+              <tr>
+                <td><strong>Strokes</strong></td>
+                <td>{match.strokes}</td>
+              </tr>
+              <tr>
+                <td><strong>Meanings</strong></td>
+                <td>{match.meanings.join(", ")}</td>
+              </tr>
+              <tr>
+                <td><strong>On</strong></td>
+                <td>{match.reading_on.join(", ")}</td>
+              </tr>
+              <tr>
+                <td><strong>Kun</strong></td>
+                <td>{match.reading_kun.join(", ")}</td>
+              </tr>
+
+            </table>
           </div>
-        </div>
-      </div>
-    );
+        );
+      }
+    }
   };
 
 
@@ -183,14 +223,15 @@ const Converter = () => {
       <div className="main-content">
         <h1>Kanji ⇿ Hanzi (Simplified & Traditional)</h1>
 
-        <p> Input character to see what its equivalents are in kanji or simplified/traditional characters. </p>
-        <p> No need to differentiate between simplified and traditional characters. </p>
+        <p> Input one character to see its equivalents in kanji or simplified and traditional hanzi. </p><br/>
+        <p> First, choose your input language. If you are inputting a Japanese character, choose Japanese. If you are inputting a Chinese character, choose Chinese. </p><br/>
+        <p> Then type exactly one character in the input box. </p>
 
         {error && <p className="error-message">{error}</p>}
 
         <div className="input-container">
 
-          <label htmlFor="input-language">Select Language:</label>
+          <label htmlFor="input-language">Select Input Language:</label>
           <select id="input-language" onChange={handleLanguageChange}>
             <option value="japanese">Japanese</option>
             <option value="chinese">Chinese</option>
@@ -245,11 +286,11 @@ const Converter = () => {
               <div className="sub-chinese-column">
                 <div className={`information ${showTraditionalInfo ? 'active' : ''}`}>
                   {result.traditional.length === 1 ? (
-                    renderChineseCharacterInfo(result.traditional)
+                    renderChineseCharacterInfo(result.traditional, "zh-Hant")
                   ) : (
                     result.traditional.split(', ').map((char, index) => (
                       <div key={index}>
-                        {renderChineseCharacterInfo(char)}
+                        {renderChineseCharacterInfo(char, "zh-Hant")}
                       </div>
                     ))
                   )}
@@ -257,11 +298,11 @@ const Converter = () => {
 
                 <div className={`information ${showSimplifiedInfo ? 'active' : ''}`}>
                   {result.simplified.length === 1 ? (
-                    renderJapaneseCharacterInfo(result.simplified)
+                    renderChineseCharacterInfo(result.simplified, "zh-Hans")
                   ) : (
                     result.simplified.split(', ').map((char, index) => (
                       <div key={index}>
-                        {renderChineseCharacterInfo(char)}
+                        {renderChineseCharacterInfo(char, "zh-Hans")}
                       </div>
                     ))
                   )}

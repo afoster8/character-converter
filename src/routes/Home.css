@@ -1,6 +1,6 @@
 .card {
   display: flex;
-  width: 500px;
+  width: 320px;
   background-color: #8860b8;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -9,15 +9,18 @@
   transition: transform 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-left: 10px;
-  height: 200px;
+  height: 100px;
   align-content: center;
   align-items: center;
   justify-content: center;
 }
 
-.big-container {
-  margin-top: 30px;
-  align-items: center;
+.modes-container {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
 }
 
 .card:hover {
@@ -33,10 +36,4 @@ a, a:hover {
 .card h2 {
   color: #fff;
   text-decoration: none;
-}
-
-.smaller-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }

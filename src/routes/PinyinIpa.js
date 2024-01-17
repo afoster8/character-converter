@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "./PinyinIpa.css"
 import { convertToIpa, convertToPinyin } from "../conversion/converterutils/pinyin_converter.js";
 import json from "../conversion/chinese_ipa_conversion.json";
 
@@ -59,6 +58,9 @@ const PinyinIpa = () => {
 
         <h1>Pinyin ⇿ IPA for Mandarin Chinese</h1>
 
+        <p><a href="https://en.wikipedia.org/wiki/Pinyin">Pinyin</a> is a Chinese transliteration and writing system for Mandarin Chinese. 
+        Input pinyin to convert to IPA, or input IPA to convert to pinyin. </p>
+
         {error && <p className="error-message">{error}</p>}
 
         <div className="big-container">
@@ -66,9 +68,10 @@ const PinyinIpa = () => {
           <div className="modes">
             <h2> Input Pinyin, output IPA! </h2>
             <div className="mode-info">
-              <p><a href="https://en.wikipedia.org/wiki/Pinyin">Pinyin</a> is a Chinese transliteration and writing system for Mandarin Chinese.</p>
-              <p> Pinyin should have spaces between syllables (not just words!) and are expected to have tone markings where appropriate. If you're missing the tone markings, everything will return as tone 5. </p>
+              <p> Pinyin should have spaces between syllables (not just words!) and are expected to have tone markings where appropriate. If you're missing the tone markings, the syllable will be marked tone 5. </p>
               <p> If you don't have a keyboard that can generate tone markings, you can find a copy-paste tool <a href="https://www.lexilogos.com/keyboard/chinese_pinyin.htm">here</a>.</p>
+              <p> If you are unfamiliar with Mandarin Chinese phonology, read up <a href="https://en.wikipedia.org/wiki/Standard_Chinese_phonology">here</a>. If you are unfamiliar with IPA in general, read up 
+              <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"> here.</a></p>
             </div>
 
 
@@ -95,9 +98,11 @@ const PinyinIpa = () => {
           <div className="modes">
             <h2> Input IPA, output Pinyin! </h2>
             <div className="mode-info">
-              <p> IPA can include diacritics or not, but all diacritics will be ignored when searching the JSON file. There is a lot of variation in what diacritics are used for each sound in Mandarin, so this simplifies the search.</p>
-              <p> Syllables should have spaces between them and may or may not have tones (1-5) after each syllable. </p>
+              <p> IPA can include diacritics or not, but all diacritics will be ignored when matching. There is a lot of variation in transcription style, so this is the compromise we have to make. </p>
+              <p> Syllables should have spaces between them and may or may not have tones (marked simply by number 1-5) after each syllable. </p>
               <p> If you don't have a IPA keyboard, you can find a copy-paste tool <a href="https://ipa.typeit.org/">here</a>.</p>
+              <p> If you are unfamiliar with Mandarin Chinese phonology, read up <a href="https://en.wikipedia.org/wiki/Standard_Chinese_phonology">here</a>. If you are unfamiliar with IPA in general, read up 
+              <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"> here.</a></p>
             </div>
 
 
@@ -118,6 +123,7 @@ const PinyinIpa = () => {
               </div>
             }
           </div>
+
 
         </div>
 

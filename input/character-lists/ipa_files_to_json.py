@@ -21,7 +21,6 @@ with open(output_json_path, "w", encoding="utf-8") as json_file:
     json.dump(data, json_file, ensure_ascii=False, indent=2)
     
     
-
 input_file_path = "./chinese_ipa.txt"
 output_json_path = "../../src/conversion/chinese_ipa_conversion.json"
 

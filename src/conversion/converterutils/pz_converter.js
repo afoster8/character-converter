@@ -1,18 +1,5 @@
-/* Error Classes for passing informative strings to user */
-class WordNotFoundError extends Error {
-  constructor(word) {
-    super(`Word "${word}" not found in mapping.`);
-    this.name = "WordNotFoundError";
-    this.word = word;
-  }
-}
-
-class ConversionTableNotFoundError extends Error {
-  constructor() {
-    super("Conversion table not found, could not convert.");
-    this.name = "ConversionTableNotFoundError";
-  }
-}
+import { ConversionTableNotFoundError, WordNotFoundError, stripPinyinTone, 
+          addPinyinTone, stripZhuyinTone, addZhuyinTone } from "./utils";
 
 export function convertToZhuyin(conversionObject) {
   if (!conversionObject) {
@@ -20,30 +7,27 @@ export function convertToZhuyin(conversionObject) {
   }
 
   try {
-    const input = document.getElementById("input-pinyin").value;
+    const input = document.getElementById("pinyin-input").value;
     const inputWords = input.trim().split(/\s+/);
-
-    console.log(inputWords);
 
     if (inputWords) {
       const matchingWords = [];
 
       inputWords.forEach((word) => {
-        const match = conversionObject.get(word)
-        console.log(match);
+        const { pinyin, tone } = stripPinyinTone(word); //strip tone marking before searching
+        var match = conversionObject.find(entry => entry.pinyin === pinyin)
 
         if (match) {
-          matchingWords.push(match);
+          matchingWords.push(addZhuyinTone(match.zhuyin + tone)); // add tone to end of string
         } else {
           throw new WordNotFoundError(word)
         }
       });
 
-      console.log(matchingWords);
       return matchingWords.join(" ");
 
     } else {
-      throw new Error("No input found");
+      throw new Error("No input found.");
     }
 
   } catch (error) {
@@ -60,24 +44,23 @@ export function convertToPinyin(conversionObject) {
   }
 
   try {
-    const input = document.getElementById("input-zhuyin").value;
+    const input = document.getElementById("zhuyin-input").value;
     const inputWords = input.trim().split(/\s+/);
 
     if (inputWords) {
       const matchingWords = [];
 
       inputWords.forEach((word) => {
-        const match = conversionObject.get(word)
-        console.log(match);
+        const { zhuyin, tone } = stripZhuyinTone(word); //strip tone marking before searching
+        var match = conversionObject.find(entry => entry.zhuyin === zhuyin)
 
         if (match) {
-          matchingWords.push(match);
+          matchingWords.push(addPinyinTone(match.pinyin + tone)); // add tone to end of string
         } else {
           throw new WordNotFoundError(word)
         }
       });
 
-      console.log(matchingWords);
       return matchingWords.join(" ");
 
     } else {

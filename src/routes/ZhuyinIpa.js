@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import "./ZhuyinIpa.css";
 import { convertToIpa, convertToZhuyin } from "../conversion/converterutils/zhuyin_converter.js";
 import json from "../conversion/chinese_ipa_conversion.json";
 
@@ -62,6 +61,8 @@ const ZhuyinIpa = () => {
 
         <h1> Zhuyin ⇿ IPA for Mandarin Chinese </h1>
 
+        <p><a href="https://en.wikipedia.org/wiki/Bopomofo">Zhuyin</a>, also known as Bopomofo, is a Chinese transliteration and writing system for Mandarin Chinese, used as an alternative to pinyin.</p>
+
         {error && <p className="error-message">{error}</p>}
 
         <div className="big-container">
@@ -69,9 +70,11 @@ const ZhuyinIpa = () => {
           <div className="modes">
             <h2> Input Zhuyin, output IPA! </h2>
             <div className="mode-info">
-              <p><a href="https://en.wikipedia.org/wiki/Bopomofo">Zhuyin</a>, also known as Bopomofo, is a Chinese transliteration and writing system for Mandarin Chinese, used as an alternative to pinyin.</p>
+        
               <p> Zhuyin should have spaces between syllables (not just words!) and may or may not have tone markings after each syllable. A typical syllable of Zhuyin will be two (or three) characters long (initial + coda). </p>
               <p> If you don't have a Zhuyin keyboard, you can find a copy-paste tool <a href="https://www.i2bopomo.com/">here</a>.</p>
+              <p> If you are unfamiliar with Mandarin Chinese phonology, read up <a href="https://en.wikipedia.org/wiki/Standard_Chinese_phonology">here</a>. If you are unfamiliar with IPA in general, read up 
+              <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"> here.</a></p>
             </div>
 
 
@@ -98,9 +101,11 @@ const ZhuyinIpa = () => {
           <div className="modes">
             <h2>  Input IPA, output Zhuyin! </h2>
             <div className="mode-info">
-              <p>IPA can include diacritics or not, but all diacritics will be ignored when searching the JSON file. There is a lot of variation in what diacritics are used for each sound in Mandarin, so this simplifies the search.</p>
-              <p> Syllables should have spaces between them and may or may not have tones (1-5) after each syllable. </p>
+            <p> IPA can include diacritics or not, but all diacritics will be ignored when matching. There is a lot of variation in transcription style, so this is the compromise we have to make. </p>
+              <p> Syllables should have spaces between them and may or may not have tones (marked simply by number 1-5) after each syllable. </p>
               <p> If you don't have a IPA keyboard, you can find a copy-paste tool <a href="https://ipa.typeit.org/">here</a>.</p>
+              <p> If you are unfamiliar with Mandarin Chinese phonology, read up <a href="https://en.wikipedia.org/wiki/Standard_Chinese_phonology">here</a>. If you are unfamiliar with IPA in general, read up 
+              <a href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet"> here.</a></p>
             </div>
 
 

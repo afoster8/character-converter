@@ -1,5 +1,1 @@
 character conversion
-
-- load in character info
-- zhuyin pinyin conversion logic (should be pretty easy -- just strip tone and convert directly)
-- japanese ipa conversion logic (yikes)

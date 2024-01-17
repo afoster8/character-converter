@@ -166,7 +166,7 @@
   },
   {
     "pinyin": "yun",
-    "zhuyin": "ㄩㄣ",
+    "zhuyin": "ㄩㄣ\t",
     "ipa": "yn"
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "pinyin": "bu",
-    "zhuyin": "ㄅㄨ",
+    "zhuyin": "ㄅㄨ\t",
     "ipa": "pu"
   },
   {
@@ -331,7 +331,7 @@
   },
   {
     "pinyin": "pu",
-    "zhuyin": "ㄆㄨ",
+    "zhuyin": "ㄆㄨ\t",
     "ipa": "pʰu"
   },
   {
@@ -426,7 +426,7 @@
   },
   {
     "pinyin": "mu",
-    "zhuyin": "ㄇㄨ",
+    "zhuyin": "ㄇㄨ\t",
     "ipa": "mu"
   },
   {
@@ -471,7 +471,7 @@
   },
   {
     "pinyin": "fu",
-    "zhuyin": "ㄈㄨ",
+    "zhuyin": "ㄈㄨ\t",
     "ipa": "fu"
   },
   {
